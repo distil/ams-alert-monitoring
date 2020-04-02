@@ -13,6 +13,11 @@ slackAPI = slack_API()
 def _perc_to_float(perc):
         return float(perc.strip('%'))/100
 
+# Helper function to write logs
+def write_log(line):
+    with open("log.txt", "a+") as logs:
+        logs.write(f"{line}\r\n")
+
 # Parallelised function, everything happens here
 # It will retrieve the data from ATHENA
 # Running 2 queries, and update the results in google sheet 
@@ -48,11 +53,11 @@ def get_data(query):
     cell_address = f'K{row_idx+2}'
     cell_value = [tw_count, lw_count, time.asctime(), client_message]
     result = gsheetAPI.update_sheet(cell_address, cell_value)
-    print(result['updatedRange'], cell_value)
+    # Log results
+    write_log(f"{result['updatedRange']} - {cell_value}")
 
     # Check logic and send to slack:
     if tw_count >= (lw_count + lw_count * perc_increase):
-        print('sending to slack')
         slackAPI.send_message(f'''ALERT! :warning: 
 Domain: _{domain}_ | Url: _{url}_ | Time: _{time.asctime()}_
 This week's requests exceded last week by the given percentage:
@@ -69,7 +74,7 @@ while True:
     # Retrieve the sheet and add the queries
     gsheet_df = gsheetAPI.retrieve_sheet_as_df()
     gsheet_df_queries = athenaAPI.add_row_queries(gsheet_df)
-    print(f'Data from Google Sheet retrieved at {time.asctime()}')
+    write_log(f'Data from Google Sheet retrieved at {time.asctime()}')
 
     # Prepare a list of dicts
     queries_list = []
@@ -83,11 +88,11 @@ while True:
 
     # Multiprocessing to run the queries simultaneously
     # It has to stay in the main function
-    print(f'Beginning multiprocessing at {time.asctime()}, running {len(gsheet_df_queries)*2} queries on {mp.cpu_count()} threads')
+    write_log(f'Beginning multiprocessing at {time.asctime()}, running {len(gsheet_df_queries)*2} queries on {mp.cpu_count()} threads')
     time_start = time.time()
     pool = mp.Pool(mp.cpu_count())
     results = [pool.apply(get_data, args=[query]) for query in queries_list]
 
     # Print how long it took for a full cycle
     exec_time = "{:.2f}".format(time.time() - time_start)
-    print(f'Multiprocessing completed in {exec_time} seconds')
+    write_log(f'Multiprocessing completed in {exec_time} seconds')
