@@ -52,13 +52,14 @@ def get_data(query):
 
     # Check logic and send to slack:
     if tw_count >= (lw_count + lw_count * perc_increase):
+        print('sending to slack')
         slackAPI.send_message(f'''ALERT! :warning: 
 Domain: _{domain}_ | Url: _{url}_ | Time: _{time.asctime()}_
 This week's requests exceded last week by the given percentage:
 ```- This week's count: {tw_count}
 - Last week's count: {lw_count}
 - Percentage threshold: {query['perc_increase']}
-- LW count with percentage increase: {int(lw_count + lw_count * perc_increase)}```
+- Actual percentage increase: {round(tw_count/lw_count*100-100, 2)}%```
 <{gsheetAPI.gsheet_link}|Attack monitor sheet>''')
 
 # --------- #
