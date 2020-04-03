@@ -13,8 +13,9 @@ slackAPI = slack_API()
 def _perc_to_float(perc):
         return float(perc.strip('%'))/100
 
-# Helper function to write logs
+# Helper function to write logs and console at the same time
 def write_log(line):
+    print(line)
     with open("log.txt", "a+") as logs:
         logs.write(f"{line}\r\n")
 
