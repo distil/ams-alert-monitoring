@@ -19,9 +19,20 @@ def write_log(line):
     with open("log.txt", "a+") as logs:
         logs.write(f"{line}\r\n")
 
+# Helper function to make sure all rows in the dict are valid
+def check_row_validity(row):
+    if row[1]['perc_increase'] == '' or row[1]['account_id'] == '' or row[1]['site_id'] == '':
+        write_log(f'Skipped row {row[0] + 2} as contained empty values')
+        return False
+    elif row[1]['perc_increase'] == None or row[1]['account_id'] == None or row[1]['site_id'] == None:
+        write_log(f'Skipped row {row[0] + 2} as contained Null values')
+        return False
+    else:
+        return True
+
 # Parallelised function, everything happens here
-# It will retrieve the data from ATHENA
-# Running 2 queries, and update the results in google sheet 
+# It will retrieve the data from Athena
+# Run the 2 queries, and update the results in google sheet
 def get_data(query):
     row_idx = query['row_idx']
     domain = query['domain']
@@ -54,6 +65,7 @@ def get_data(query):
     cell_address = f'K{row_idx+2}'
     cell_value = [tw_count, lw_count, time.asctime(), client_message]
     result = gsheetAPI.update_sheet(cell_address, cell_value)
+    
     # Log results
     write_log(f"{result['updatedRange']} - {cell_value}")
 
@@ -71,29 +83,36 @@ This week's requests exceded last week by the given percentage:
 # --------- #
 # MAIN LOOP #
 # --------- #
-while True:
-    # Retrieve the sheet and add the queries
-    gsheet_df = gsheetAPI.retrieve_sheet_as_df()
-    gsheet_df_queries = athenaAPI.add_row_queries(gsheet_df)
-    write_log(f'Data from Google Sheet retrieved at {time.asctime()}')
+if __name__ == '__main__':
+    while True:
+        # Retrieve the sheet and add the queries
+        gsheet_df = gsheetAPI.retrieve_sheet_as_df()
+        gsheet_df_queries = athenaAPI.add_row_queries(gsheet_df)
+        write_log(f'Data from Google Sheet retrieved at {time.asctime()}')
 
-    # Prepare a list of dicts
-    queries_list = []
-    for row in gsheet_df_queries.iterrows():
-        queries_list.append({'row_idx'      : row[0],
+        # Prepare a list of dicts
+        queries_list = []
+        for row in gsheet_df_queries.iterrows():
+            # Safeguard
+            if not check_row_validity(row):
+                next
+            else:
+                print(row[0], row[1]['domain'], row[1]['url'])
+                row_dict = {'row_idx'       : row[0],
                             'domain'        : row[1]['domain'],
                             'url'           : row[1]['url'],
                             'perc_increase' : row[1]['perc_increase'],
                             'tw_query'      : row[1]['tw_query'],
-                            'lw_query'      : row[1]['lw_query']})
+                            'lw_query'      : row[1]['lw_query']}
+                queries_list.append(row_dict)
 
-    # Multiprocessing to run the queries simultaneously
-    # It has to stay in the main function
-    write_log(f'Beginning multiprocessing at {time.asctime()}, running {len(gsheet_df_queries)*2} queries on {mp.cpu_count()} threads')
-    time_start = time.time()
-    pool = mp.Pool(mp.cpu_count())
-    results = [pool.apply(get_data, args=[query]) for query in queries_list]
+        # Multiprocessing to run the queries simultaneously
+        # It has to stay in the main function
+        write_log(f'Beginning multiprocessing at {time.asctime()}, running {len(queries_list) * 2} queries on {mp.cpu_count()} threads')
+        time_start = time.time()
+        with mp.Pool(mp.cpu_count()) as pool:
+            results = [pool.apply(get_data, args=[query]) for query in queries_list]
 
-    # Print how long it took for a full cycle
-    exec_time = "{:.2f}".format(time.time() - time_start)
-    write_log(f'Multiprocessing completed in {exec_time} seconds')
+        # Print how long it took for a full cycle
+        exec_time = "{:.2f}".format(time.time() - time_start)
+        write_log(f'Multiprocessing completed in {exec_time} seconds')
