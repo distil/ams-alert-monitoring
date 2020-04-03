@@ -97,7 +97,6 @@ if __name__ == '__main__':
             if not check_row_validity(row):
                 next
             else:
-                print(row[0], row[1]['domain'], row[1]['url'])
                 row_dict = {'row_idx'       : row[0],
                             'domain'        : row[1]['domain'],
                             'url'           : row[1]['url'],
