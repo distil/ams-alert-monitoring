@@ -30,18 +30,25 @@ def check_row_validity(row):
     else:
         return True
 
+# Helper function to generate the looker url string
+def generate_looker_url(account_id, site_id, url_match):
+    url_match_formatted = url_match.replace('/', '%2F')
+    return f'https://analytics.distilnetworks.com/dashboards/618?access_time=168%20hours&account_id={account_id}&site_id={site_id}&url_match=%25{url_match_formatted}%25'
+
 # Parallelised function, everything happens here
 # It will retrieve the data from Athena
 # Run the 2 queries, and update the results in google sheet
-def get_data(query):
-    row_idx = query['row_idx']
-    domain = query['domain']
-    url = query['url']
-
+def get_data(row_idx, row_dict):
+    domain = row_dict.get('domain')
+    account_id = row_dict.get('account_id')
+    site_id = row_dict.get('site_id')
+    url_match = row_dict.get('url_match')
+    perc_increase = row_dict.get('perc_increase')
+    
     # Try to run the 2 queries
     try:
-        tw_query = athenaAPI.get_pandas_df(query['tw_query'])
-        lw_query = athenaAPI.get_pandas_df(query['lw_query'])
+        tw_query = athenaAPI.get_pandas_df(row_dict.get('tw_query'))
+        lw_query = athenaAPI.get_pandas_df(row_dict.get('lw_query'))
         
         # Values are returned in DataFrame format, extract the single number
         tw_count = int(tw_query.values[0][0])
@@ -55,9 +62,9 @@ def get_data(query):
 
     # Check if the percentage increase is formatted properly
     try:
-        perc_increase = _perc_to_float(query['perc_increase'])
+        float_perc_increase = _perc_to_float(perc_increase)
     except ValueError as e: 
-        perc_increase = 1
+        float_perc_increase = 1.0
         slackAPI.send_message(f"Error for domain {domain}, row {row_idx}, couldn't format the percentage value:\n ```{str(e)}```")
         client_message = str(e)
 
@@ -69,16 +76,23 @@ def get_data(query):
     # Log results
     write_log(f"{result['updatedRange']} - {cell_value}")
 
+    # Looker
+    looker_url = generate_looker_url(account_id
+                                    , site_id
+                                    , url_match)
+
     # Check logic and send to slack:
-    if tw_count >= (lw_count + lw_count * perc_increase):
+    if tw_count >= (lw_count + lw_count * float_perc_increase):
         slackAPI.send_message(f'''ALERT! :warning: 
-Domain: _{domain}_ | Url: _{url}_ | Time: _{time.asctime()}_
+Domain: _{domain}_ | Url: _{url_match}_ | Time: _{time.asctime()}_
 This week's requests exceded last week by the given percentage:
 ```- This week's count: {tw_count}
 - Last week's count: {lw_count}
-- Percentage threshold: {query['perc_increase']}
+- Percentage threshold: {perc_increase}
 - Actual percentage increase: {round(tw_count/lw_count*100-100, 2)}%```
-<{gsheetAPI.gsheet_link}|Attack monitor sheet>''')
+<{gsheetAPI.gsheet_link}|Attack monitor sheet>
+<{looker_url}|Looker Dashboard>''')
+
 
 # --------- #
 # MAIN LOOP #
@@ -91,26 +105,14 @@ if __name__ == '__main__':
         write_log(f'Data from Google Sheet retrieved at {time.asctime()}')
 
         # Prepare a list of dicts
-        queries_list = []
-        for row in gsheet_df_queries.iterrows():
-            # Safeguard
-            if not check_row_validity(row):
-                next
-            else:
-                row_dict = {'row_idx'       : row[0],
-                            'domain'        : row[1]['domain'],
-                            'url'           : row[1]['url'],
-                            'perc_increase' : row[1]['perc_increase'],
-                            'tw_query'      : row[1]['tw_query'],
-                            'lw_query'      : row[1]['lw_query']}
-                queries_list.append(row_dict)
+        row_list = [row for row in gsheet_df_queries.iterrows() if check_row_validity(row)]
 
-        # Multiprocessing to run the queries simultaneously
-        # It has to stay in the main function
-        write_log(f'Beginning multiprocessing at {time.asctime()}, running {len(queries_list) * 2} queries on {mp.cpu_count()} threads')
+        # Multiprocessing to run the queries simultaneously, it has to stay in the main function
+        # The argument is the full dictionary, I need most of the arguments
+        write_log(f'Beginning multiprocessing at {time.asctime()}, running {len(row_list) * 2} queries on {mp.cpu_count()} threads')
         time_start = time.time()
         with mp.Pool(mp.cpu_count()) as pool:
-            results = [pool.apply(get_data, args=[query]) for query in queries_list]
+            results = [pool.apply(get_data, args=row) for row in row_list]
 
         # Print how long it took for a full cycle
         exec_time = "{:.2f}".format(time.time() - time_start)

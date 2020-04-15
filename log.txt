@@ -1433,3 +1433,353 @@ queries!K2:N2 - [1959, 1797, 'Fri Apr  3 16:36:46 2020', 'Successful']
 Data from Google Sheet retrieved at Fri Apr  3 16:37:35 2020
 Beginning multiprocessing at Fri Apr  3 16:37:35 2020, running 10 queries on 1 threads
 queries!K2:N2 - [1925, 1783, 'Fri Apr  3 16:37:54 2020', 'Successful']
+Data from Google Sheet retrieved at Wed Apr 15 09:29:48 2020
+Beginning multiprocessing at Wed Apr 15 09:29:48 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1136, 1327, 'Wed Apr 15 09:30:07 2020', 'Successful']
+queries!K3:N3 - [99564, 90102, 'Wed Apr 15 09:30:33 2020', 'Successful']
+queries!K4:N4 - [75997, 66258, 'Wed Apr 15 09:30:59 2020', 'Successful']
+queries!K5:N5 - [1359966, 1225355, 'Wed Apr 15 09:31:19 2020', 'Successful']
+queries!K6:N6 - [110, 98, 'Wed Apr 15 09:31:51 2020', 'Successful']
+Multiprocessing completed in 124.20 seconds
+Data from Google Sheet retrieved at Wed Apr 15 09:31:54 2020
+Beginning multiprocessing at Wed Apr 15 09:31:54 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1108, 1333, 'Wed Apr 15 09:32:14 2020', 'Successful']
+queries!K3:N3 - [96231, 89576, 'Wed Apr 15 09:32:39 2020', 'Successful']
+queries!K4:N4 - [73020, 65993, 'Wed Apr 15 09:33:08 2020', 'Successful']
+queries!K5:N5 - [1383547, 1218172, 'Wed Apr 15 09:33:31 2020', 'Successful']
+queries!K6:N6 - [134, 96, 'Wed Apr 15 09:33:51 2020', 'Successful']
+Multiprocessing completed in 118.41 seconds
+Data from Google Sheet retrieved at Wed Apr 15 09:33:53 2020
+Beginning multiprocessing at Wed Apr 15 09:33:53 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1142, 1334, 'Wed Apr 15 09:34:08 2020', 'Successful']
+queries!K3:N3 - [97537, 89285, 'Wed Apr 15 09:34:29 2020', 'Successful']
+queries!K4:N4 - [74248, 65959, 'Wed Apr 15 09:34:51 2020', 'Successful']
+queries!K5:N5 - [1341980, 1213826, 'Wed Apr 15 09:35:13 2020', 'Successful']
+queries!K6:N6 - [133, 93, 'Wed Apr 15 09:35:35 2020', 'Successful']
+Multiprocessing completed in 104.20 seconds
+Data from Google Sheet retrieved at Wed Apr 15 09:35:38 2020
+Beginning multiprocessing at Wed Apr 15 09:35:38 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1182, 1336, 'Wed Apr 15 09:35:55 2020', 'Successful']
+queries!K3:N3 - [94485, 89921, 'Wed Apr 15 09:36:20 2020', 'Successful']
+queries!K4:N4 - [75715, 66910, 'Wed Apr 15 09:36:43 2020', 'Successful']
+queries!K5:N5 - [1382904, 1208660, 'Wed Apr 15 09:37:06 2020', 'Successful']
+queries!K6:N6 - [155, 96, 'Wed Apr 15 09:37:27 2020', 'Successful']
+Multiprocessing completed in 110.70 seconds
+Data from Google Sheet retrieved at Wed Apr 15 09:37:30 2020
+Beginning multiprocessing at Wed Apr 15 09:37:30 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1149, 1335, 'Wed Apr 15 09:37:43 2020', 'Successful']
+queries!K3:N3 - [96343, 91460, 'Wed Apr 15 09:38:04 2020', 'Successful']
+queries!K4:N4 - [73482, 68281, 'Wed Apr 15 09:38:30 2020', 'Successful']
+queries!K5:N5 - [1339298, 1205545, 'Wed Apr 15 09:38:49 2020', 'Successful']
+queries!K6:N6 - [146, 92, 'Wed Apr 15 09:39:10 2020', 'Successful']
+Multiprocessing completed in 102.06 seconds
+Data from Google Sheet retrieved at Wed Apr 15 09:39:13 2020
+Beginning multiprocessing at Wed Apr 15 09:39:13 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1168, 1332, 'Wed Apr 15 09:39:27 2020', 'Successful']
+queries!K3:N3 - [98233, 92475, 'Wed Apr 15 09:39:48 2020', 'Successful']
+queries!K4:N4 - [74994, 69490, 'Wed Apr 15 09:40:09 2020', 'Successful']
+queries!K5:N5 - [1370510, 1201554, 'Wed Apr 15 09:40:30 2020', 'Successful']
+queries!K6:N6 - [155, 93, 'Wed Apr 15 09:40:54 2020', 'Successful']
+Multiprocessing completed in 102.99 seconds
+Data from Google Sheet retrieved at Wed Apr 15 09:40:57 2020
+Beginning multiprocessing at Wed Apr 15 09:40:57 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1142, 1334, 'Wed Apr 15 09:41:14 2020', 'Successful']
+queries!K3:N3 - [95039, 93683, 'Wed Apr 15 09:41:36 2020', 'Successful']
+queries!K4:N4 - [72513, 70965, 'Wed Apr 15 09:41:59 2020', 'Successful']
+queries!K5:N5 - [1324840, 1197388, 'Wed Apr 15 09:42:19 2020', 'Successful']
+queries!K6:N6 - [166, 88, 'Wed Apr 15 09:42:39 2020', 'Successful']
+Multiprocessing completed in 103.71 seconds
+Data from Google Sheet retrieved at Wed Apr 15 09:42:42 2020
+Beginning multiprocessing at Wed Apr 15 09:42:42 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1166, 1329, 'Wed Apr 15 09:42:58 2020', 'Successful']
+queries!K3:N3 - [96759, 95222, 'Wed Apr 15 09:43:16 2020', 'Successful']
+queries!K4:N4 - [73920, 72712, 'Wed Apr 15 09:43:37 2020', 'Successful']
+queries!K5:N5 - [1346271, 1193436, 'Wed Apr 15 09:43:58 2020', 'Successful']
+queries!K6:N6 - [163, 89, 'Wed Apr 15 09:44:19 2020', 'Successful']
+Multiprocessing completed in 98.61 seconds
+Data from Google Sheet retrieved at Wed Apr 15 09:44:22 2020
+Beginning multiprocessing at Wed Apr 15 09:44:22 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1196, 1315, 'Wed Apr 15 09:44:39 2020', 'Successful']
+queries!K3:N3 - [93910, 97285, 'Wed Apr 15 09:44:59 2020', 'Successful']
+queries!K4:N4 - [71726, 74259, 'Wed Apr 15 09:45:21 2020', 'Successful']
+queries!K5:N5 - [1364928, 1189555, 'Wed Apr 15 09:45:41 2020', 'Successful']
+Data from Google Sheet retrieved at Wed Apr 15 09:48:50 2020
+Beginning multiprocessing at Wed Apr 15 09:48:50 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1182, 1310, 'Wed Apr 15 09:49:10 2020', 'Successful']
+queries!K3:N3 - [95712, 98392, 'Wed Apr 15 09:49:29 2020', 'Successful']
+queries!K4:N4 - [73210, 73564, 'Wed Apr 15 09:49:50 2020', 'Successful']
+queries!K5:N5 - [1319887, 1178876, 'Wed Apr 15 09:50:10 2020', 'Successful']
+queries!K6:N6 - [173, 88, 'Wed Apr 15 09:50:30 2020', 'Successful']
+Multiprocessing completed in 106.46 seconds
+Data from Google Sheet retrieved at Wed Apr 15 09:50:37 2020
+Beginning multiprocessing at Wed Apr 15 09:50:37 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1213, 1300, 'Wed Apr 15 09:50:52 2020', 'Successful']
+queries!K3:N3 - [92858, 99025, 'Wed Apr 15 09:51:16 2020', 'Successful']
+queries!K4:N4 - [71438, 73496, 'Wed Apr 15 09:51:37 2020', 'Successful']
+queries!K5:N5 - [1336684, 1175380, 'Wed Apr 15 09:51:57 2020', 'Successful']
+queries!K6:N6 - [181, 87, 'Wed Apr 15 09:52:20 2020', 'Successful']
+Multiprocessing completed in 103.96 seconds
+Data from Google Sheet retrieved at Wed Apr 15 09:52:22 2020
+Beginning multiprocessing at Wed Apr 15 09:52:22 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1174, 1288, 'Wed Apr 15 09:52:38 2020', 'Successful']
+queries!K3:N3 - [94601, 99825, 'Wed Apr 15 09:52:57 2020', 'Successful']
+queries!K4:N4 - [72471, 73617, 'Wed Apr 15 09:53:17 2020', 'Successful']
+queries!K5:N5 - [1298840, 1170789, 'Wed Apr 15 09:53:38 2020', 'Successful']
+queries!K6:N6 - [178, 89, 'Wed Apr 15 09:53:58 2020', 'Successful']
+Multiprocessing completed in 97.29 seconds
+Data from Google Sheet retrieved at Wed Apr 15 09:54:01 2020
+Beginning multiprocessing at Wed Apr 15 09:54:01 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1208, 1281, 'Wed Apr 15 09:54:15 2020', 'Successful']
+queries!K3:N3 - [96561, 100817, 'Wed Apr 15 09:54:35 2020', 'Successful']
+queries!K4:N4 - [73981, 74213, 'Wed Apr 15 09:54:56 2020', 'Successful']
+queries!K5:N5 - [1320460, 1168132, 'Wed Apr 15 09:55:17 2020', 'Successful']
+queries!K6:N6 - [180, 92, 'Wed Apr 15 09:55:36 2020', 'Successful']
+Multiprocessing completed in 96.78 seconds
+Data from Google Sheet retrieved at Wed Apr 15 09:55:39 2020
+Beginning multiprocessing at Wed Apr 15 09:55:39 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1198, 1288, 'Wed Apr 15 09:55:54 2020', 'Successful']
+queries!K3:N3 - [93708, 102278, 'Wed Apr 15 09:56:13 2020', 'Successful']
+queries!K4:N4 - [71800, 74948, 'Wed Apr 15 09:56:32 2020', 'Successful']
+queries!K5:N5 - [1283690, 1164987, 'Wed Apr 15 09:56:51 2020', 'Successful']
+queries!K6:N6 - [176, 94, 'Wed Apr 15 09:57:11 2020', 'Successful']
+Multiprocessing completed in 93.81 seconds
+Data from Google Sheet retrieved at Wed Apr 15 09:57:14 2020
+Beginning multiprocessing at Wed Apr 15 09:57:14 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1235, 1292, 'Wed Apr 15 09:57:27 2020', 'Successful']
+queries!K3:N3 - [95850, 103350, 'Wed Apr 15 09:57:47 2020', 'Successful']
+queries!K4:N4 - [73327, 75630, 'Wed Apr 15 09:58:06 2020', 'Successful']
+queries!K5:N5 - [1308676, 1162864, 'Wed Apr 15 09:58:26 2020', 'Successful']
+queries!K6:N6 - [176, 91, 'Wed Apr 15 09:58:46 2020', 'Successful']
+Multiprocessing completed in 93.60 seconds
+Data from Google Sheet retrieved at Wed Apr 15 09:58:48 2020
+Beginning multiprocessing at Wed Apr 15 09:58:48 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1203, 1270, 'Wed Apr 15 09:59:03 2020', 'Successful']
+queries!K3:N3 - [93084, 104979, 'Wed Apr 15 09:59:22 2020', 'Successful']
+queries!K4:N4 - [71293, 76637, 'Wed Apr 15 09:59:43 2020', 'Successful']
+queries!K5:N5 - [1271410, 1161909, 'Wed Apr 15 10:00:01 2020', 'Successful']
+queries!K6:N6 - [171, 90, 'Wed Apr 15 10:00:27 2020', 'Successful']
+Multiprocessing completed in 100.16 seconds
+Data from Google Sheet retrieved at Wed Apr 15 10:00:29 2020
+Beginning multiprocessing at Wed Apr 15 10:00:29 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1250, 1267, 'Wed Apr 15 10:00:46 2020', 'Successful']
+queries!K3:N3 - [95004, 106844, 'Wed Apr 15 10:01:09 2020', 'Successful']
+queries!K4:N4 - [72704, 77576, 'Wed Apr 15 10:01:29 2020', 'Successful']
+queries!K5:N5 - [1294713, 1160334, 'Wed Apr 15 10:01:49 2020', 'Successful']
+queries!K6:N6 - [179, 87, 'Wed Apr 15 10:02:11 2020', 'Successful']
+Multiprocessing completed in 103.08 seconds
+Data from Google Sheet retrieved at Wed Apr 15 10:02:14 2020
+Beginning multiprocessing at Wed Apr 15 10:02:14 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1293, 1232, 'Wed Apr 15 10:02:30 2020', 'Successful']
+queries!K3:N3 - [92209, 107967, 'Wed Apr 15 10:02:50 2020', 'Successful']
+queries!K4:N4 - [70721, 77425, 'Wed Apr 15 10:03:09 2020', 'Successful']
+queries!K5:N5 - [1309184, 1157901, 'Wed Apr 15 10:03:29 2020', 'Successful']
+queries!K6:N6 - [180, 85, 'Wed Apr 15 10:03:51 2020', 'Successful']
+Multiprocessing completed in 98.75 seconds
+Data from Google Sheet retrieved at Wed Apr 15 10:03:53 2020
+Beginning multiprocessing at Wed Apr 15 10:03:53 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1263, 1247, 'Wed Apr 15 10:04:08 2020', 'Successful']
+queries!K3:N3 - [94181, 109164, 'Wed Apr 15 10:04:29 2020', 'Successful']
+queries!K4:N4 - [72139, 77340, 'Wed Apr 15 10:04:51 2020', 'Successful']
+queries!K5:N5 - [1279444, 1157227, 'Wed Apr 15 10:05:12 2020', 'Successful']
+queries!K6:N6 - [177, 81, 'Wed Apr 15 10:06:12 2020', 'Successful']
+Multiprocessing completed in 140.29 seconds
+Data from Google Sheet retrieved at Wed Apr 15 10:06:15 2020
+Beginning multiprocessing at Wed Apr 15 10:06:15 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1298, 1243, 'Wed Apr 15 10:06:29 2020', 'Successful']
+queries!K3:N3 - [94952, 110648, 'Wed Apr 15 10:06:50 2020', 'Successful']
+queries!K4:N4 - [72713, 77273, 'Wed Apr 15 10:07:09 2020', 'Successful']
+queries!K5:N5 - [1287942, 1155468, 'Wed Apr 15 10:07:28 2020', 'Successful']
+queries!K6:N6 - [182, 79, 'Wed Apr 15 10:07:49 2020', 'Successful']
+Multiprocessing completed in 95.99 seconds
+Data from Google Sheet retrieved at Wed Apr 15 10:07:52 2020
+Beginning multiprocessing at Wed Apr 15 10:07:52 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1244, 1231, 'Wed Apr 15 10:08:06 2020', 'Successful']
+queries!K3:N3 - [92396, 111186, 'Wed Apr 15 10:08:29 2020', 'Successful']
+queries!K4:N4 - [70753, 77057, 'Wed Apr 15 10:08:49 2020', 'Successful']
+queries!K5:N5 - [1251378, 1153109, 'Wed Apr 15 10:09:09 2020', 'Successful']
+queries!K6:N6 - [189, 81, 'Wed Apr 15 10:09:30 2020', 'Successful']
+Multiprocessing completed in 100.38 seconds
+Data from Google Sheet retrieved at Wed Apr 15 10:09:34 2020
+Beginning multiprocessing at Wed Apr 15 10:09:34 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1271, 1207, 'Wed Apr 15 10:09:52 2020', 'Successful']
+queries!K3:N3 - [94336, 111536, 'Wed Apr 15 10:10:19 2020', 'Successful']
+queries!K4:N4 - [72170, 76934, 'Wed Apr 15 10:10:39 2020', 'Successful']
+queries!K5:N5 - [1271651, 1152068, 'Wed Apr 15 10:11:01 2020', 'Successful']
+queries!K6:N6 - [192, 81, 'Wed Apr 15 10:11:22 2020', 'Successful']
+Multiprocessing completed in 109.48 seconds
+Data from Google Sheet retrieved at Wed Apr 15 10:11:24 2020
+Beginning multiprocessing at Wed Apr 15 10:11:24 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1335, 1213, 'Wed Apr 15 10:11:42 2020', 'Successful']
+queries!K3:N3 - [91565, 111588, 'Wed Apr 15 10:12:03 2020', 'Successful']
+queries!K4:N4 - [69995, 76163, 'Wed Apr 15 10:12:26 2020', 'Successful']
+queries!K5:N5 - [1294382, 1150316, 'Wed Apr 15 10:12:48 2020', 'Successful']
+queries!K6:N6 - [195, 78, 'Wed Apr 15 10:13:18 2020', 'Successful']
+Multiprocessing completed in 117.97 seconds
+Data from Google Sheet retrieved at Wed Apr 15 10:13:26 2020
+Beginning multiprocessing at Wed Apr 15 10:13:26 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1284, 1212, 'Wed Apr 15 10:13:45 2020', 'Successful']
+queries!K3:N3 - [92664, 108720, 'Wed Apr 15 10:14:05 2020', 'Successful']
+queries!K4:N4 - [70819, 72871, 'Wed Apr 15 10:14:25 2020', 'Successful']
+queries!K5:N5 - [1251968, 1144673, 'Wed Apr 15 10:14:45 2020', 'Successful']
+queries!K6:N6 - [193, 75, 'Wed Apr 15 10:15:04 2020', 'Successful']
+Multiprocessing completed in 99.75 seconds
+Data from Google Sheet retrieved at Wed Apr 15 10:15:07 2020
+Beginning multiprocessing at Wed Apr 15 10:15:07 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1328, 1212, 'Wed Apr 15 10:15:22 2020', 'Successful']
+queries!K3:N3 - [94960, 105650, 'Wed Apr 15 10:15:42 2020', 'Successful']
+queries!K4:N4 - [72786, 70363, 'Wed Apr 15 10:16:09 2020', 'Successful']
+queries!K5:N5 - [1272695, 1139927, 'Wed Apr 15 10:16:36 2020', 'Successful']
+queries!K6:N6 - [203, 74, 'Wed Apr 15 10:16:56 2020', 'Successful']
+Multiprocessing completed in 110.41 seconds
+Data from Google Sheet retrieved at Wed Apr 15 10:16:58 2020
+Beginning multiprocessing at Wed Apr 15 10:16:58 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Wed Apr 15 11:14:57 2020
+Beginning multiprocessing at Wed Apr 15 11:14:57 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Wed Apr 15 11:16:12 2020
+Data from Google Sheet retrieved at Wed Apr 15 11:16:13 2020
+Data from Google Sheet retrieved at Wed Apr 15 11:16:14 2020
+Data from Google Sheet retrieved at Wed Apr 15 11:16:15 2020
+Data from Google Sheet retrieved at Wed Apr 15 11:20:22 2020
+Beginning multiprocessing at Wed Apr 15 11:20:22 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Wed Apr 15 11:20:49 2020
+Beginning multiprocessing at Wed Apr 15 11:20:49 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Wed Apr 15 11:25:01 2020
+Beginning multiprocessing at Wed Apr 15 11:25:01 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Wed Apr 15 11:26:17 2020
+Data from Google Sheet retrieved at Wed Apr 15 11:26:33 2020
+Beginning multiprocessing at Wed Apr 15 11:26:33 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1367, 1430, 'Wed Apr 15 11:26:50 2020', 'Successful']
+queries!K3:N3 - [1153808, 982558, 'Wed Apr 15 11:27:12 2020', 'Successful']
+queries!K4:N4 - [87570, 58652, 'Wed Apr 15 11:27:35 2020', 'Successful']
+queries!K5:N5 - [1298537, 1171646, 'Wed Apr 15 11:27:55 2020', 'Successful']
+Data from Google Sheet retrieved at Wed Apr 15 13:47:05 2020
+Beginning multiprocessing at Wed Apr 15 13:47:05 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1674, 1411, 'Wed Apr 15 13:47:23 2020', 'Successful']
+queries!K3:N3 - [233852, 226430, 'Wed Apr 15 13:47:47 2020', 'Successful']
+queries!K4:N4 - [165779, 133125, 'Wed Apr 15 13:48:08 2020', 'Successful']
+queries!K5:N5 - [2737020, 2616544, 'Wed Apr 15 13:48:28 2020', 'Successful']
+queries!K6:N6 - [278, 270, 'Wed Apr 15 13:48:48 2020', 'Successful']
+Multiprocessing completed in 105.08 seconds
+Data from Google Sheet retrieved at Wed Apr 15 13:48:51 2020
+Beginning multiprocessing at Wed Apr 15 13:48:51 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1654, 1434, 'Wed Apr 15 13:49:05 2020', 'Successful']
+queries!K3:N3 - [242436, 229027, 'Wed Apr 15 13:49:25 2020', 'Successful']
+queries!K4:N4 - [172108, 134912, 'Wed Apr 15 13:49:45 2020', 'Successful']
+queries!K5:N5 - [2841542, 2645731, 'Wed Apr 15 13:50:06 2020', 'Successful']
+queries!K6:N6 - [273, 270, 'Wed Apr 15 13:50:28 2020', 'Successful']
+Multiprocessing completed in 97.98 seconds
+Data from Google Sheet retrieved at Wed Apr 15 13:50:30 2020
+Beginning multiprocessing at Wed Apr 15 13:50:30 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1705, 1423, 'Wed Apr 15 13:50:45 2020', 'Successful']
+queries!K3:N3 - [236860, 231588, 'Wed Apr 15 13:51:06 2020', 'Successful']
+queries!K4:N4 - [168247, 136650, 'Wed Apr 15 13:51:28 2020', 'Successful']
+queries!K5:N5 - [2947288, 2675508, 'Wed Apr 15 13:51:51 2020', 'Successful']
+Data from Google Sheet retrieved at Wed Apr 15 13:53:06 2020
+Beginning multiprocessing at Wed Apr 15 13:53:06 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1688, 1404, 'Wed Apr 15 13:53:24 2020', 'Successful']
+queries!K3:N3 - [243696, 235470, 'Wed Apr 15 13:53:43 2020', 'Successful']
+queries!K4:N4 - [173424, 139501, 'Wed Apr 15 13:54:05 2020', 'Successful']
+Data from Google Sheet retrieved at Wed Apr 15 13:55:50 2020
+Beginning multiprocessing at Wed Apr 15 13:55:50 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1632, 1416, 'Wed Apr 15 13:56:08 2020', 'Successful']
+queries!K3:N3 - [250653, 239647, 'Wed Apr 15 13:56:27 2020', 'Successful']
+queries!K4:N4 - [178854, 142195, 'Wed Apr 15 13:56:49 2020', 'Successful']
+queries!K5:N5 - [2902577, 2768554, 'Wed Apr 15 13:57:12 2020', 'Successful']
+queries!K6:N6 - [277, 282, 'Wed Apr 15 13:57:31 2020', 'Successful']
+Multiprocessing completed in 102.18 seconds
+Data from Google Sheet retrieved at Wed Apr 15 13:57:33 2020
+Beginning multiprocessing at Wed Apr 15 13:57:33 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1663, 1424, 'Wed Apr 15 13:57:47 2020', 'Successful']
+queries!K3:N3 - [260482, 241908, 'Wed Apr 15 13:58:08 2020', 'Successful']
+queries!K4:N4 - [185810, 143712, 'Wed Apr 15 13:58:28 2020', 'Successful']
+Data from Google Sheet retrieved at Wed Apr 15 14:01:43 2020
+Beginning multiprocessing at Wed Apr 15 14:01:43 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1609, 1444, 'Wed Apr 15 14:01:59 2020', 'Successful']
+queries!K3:N3 - [260304, 247660, 'Wed Apr 15 14:02:21 2020', 'Successful']
+queries!K4:N4 - [185651, 147824, 'Wed Apr 15 14:02:42 2020', 'Successful']
+queries!K5:N5 - [3006036, 2867970, 'Wed Apr 15 14:03:04 2020', 'Successful']
+queries!K6:N6 - [283, 275, 'Wed Apr 15 14:03:27 2020', 'Successful']
+Multiprocessing completed in 105.91 seconds
+Data from Google Sheet retrieved at Wed Apr 15 14:03:30 2020
+Beginning multiprocessing at Wed Apr 15 14:03:30 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1626, 1457, 'Wed Apr 15 14:03:53 2020', 'Successful']
+queries!K3:N3 - [268853, 250308, 'Wed Apr 15 14:04:14 2020', 'Successful']
+queries!K4:N4 - [192131, 149688, 'Wed Apr 15 14:04:46 2020', 'Successful']
+queries!K5:N5 - [3100436, 2904181, 'Wed Apr 15 14:05:08 2020', 'Successful']
+queries!K6:N6 - [285, 293, 'Wed Apr 15 14:06:03 2020', 'Successful']
+Multiprocessing completed in 154.31 seconds
+Data from Google Sheet retrieved at Wed Apr 15 14:06:05 2020
+Beginning multiprocessing at Wed Apr 15 14:06:05 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1610, 1473, 'Wed Apr 15 14:06:26 2020', 'Successful']
+queries!K3:N3 - [274965, 253951, 'Wed Apr 15 14:06:51 2020', 'Successful']
+queries!K4:N4 - [196363, 152461, 'Wed Apr 15 14:07:12 2020', 'Successful']
+queries!K5:N5 - [3181236, 2948368, 'Wed Apr 15 14:07:34 2020', 'Successful']
+queries!K6:N6 - [297, 297, 'Wed Apr 15 14:07:55 2020', 'Successful']
+Multiprocessing completed in 110.50 seconds
+Data from Google Sheet retrieved at Wed Apr 15 14:07:57 2020
+Beginning multiprocessing at Wed Apr 15 14:07:57 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1553, 1470, 'Wed Apr 15 14:08:13 2020', 'Successful']
+queries!K3:N3 - [268424, 256334, 'Wed Apr 15 14:08:33 2020', 'Successful']
+queries!K4:N4 - [192033, 154192, 'Wed Apr 15 14:08:53 2020', 'Successful']
+queries!K5:N5 - [3107526, 2979079, 'Wed Apr 15 14:09:17 2020', 'Successful']
+queries!K6:N6 - [315, 299, 'Wed Apr 15 14:09:39 2020', 'Successful']
+Multiprocessing completed in 102.94 seconds
+Data from Google Sheet retrieved at Wed Apr 15 14:09:41 2020
+Beginning multiprocessing at Wed Apr 15 14:09:41 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1587, 1473, 'Wed Apr 15 14:09:57 2020', 'Successful']
+queries!K3:N3 - [277707, 258353, 'Wed Apr 15 14:10:20 2020', 'Successful']
+queries!K4:N4 - [198945, 155943, 'Wed Apr 15 14:11:05 2020', 'Successful']
+queries!K5:N5 - [3200238, 3016236, 'Wed Apr 15 14:11:28 2020', 'Successful']
+queries!K6:N6 - [313, 321, 'Wed Apr 15 14:13:13 2020', 'Successful']
+Multiprocessing completed in 213.84 seconds
+Data from Google Sheet retrieved at Wed Apr 15 14:13:16 2020
+Beginning multiprocessing at Wed Apr 15 14:13:16 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1569, 1494, 'Wed Apr 15 14:13:33 2020', 'Successful']
+queries!K3:N3 - [280536, 262861, 'Wed Apr 15 14:13:55 2020', 'Successful']
+queries!K4:N4 - [201244, 158899, 'Wed Apr 15 14:14:16 2020', 'Successful']
+queries!K5:N5 - [3249920, 3070998, 'Wed Apr 15 14:14:40 2020', 'Successful']
+queries!K6:N6 - [304, 322, 'Wed Apr 15 14:15:08 2020', 'Successful']
+Multiprocessing completed in 113.63 seconds
+Data from Google Sheet retrieved at Wed Apr 15 14:15:11 2020
+Beginning multiprocessing at Wed Apr 15 14:15:11 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1595, 1492, 'Wed Apr 15 14:15:30 2020', 'Successful']
+queries!K3:N3 - [288640, 265807, 'Wed Apr 15 14:16:03 2020', 'Successful']
+queries!K4:N4 - [206864, 161054, 'Wed Apr 15 14:16:29 2020', 'Successful']
+queries!K5:N5 - [3343200, 3107976, 'Wed Apr 15 14:16:53 2020', 'Successful']
+queries!K6:N6 - [301, 320, 'Wed Apr 15 14:17:23 2020', 'Successful']
+Multiprocessing completed in 133.96 seconds
+Data from Google Sheet retrieved at Wed Apr 15 14:17:26 2020
+Beginning multiprocessing at Wed Apr 15 14:17:26 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1628, 1506, 'Wed Apr 15 14:17:43 2020', 'Successful']
+queries!K3:N3 - [280721, 268760, 'Wed Apr 15 14:18:04 2020', 'Successful']
+queries!K4:N4 - [201475, 163251, 'Wed Apr 15 14:18:27 2020', 'Successful']
+queries!K5:N5 - [3448570, 3135359, 'Wed Apr 15 14:18:48 2020', 'Successful']
+queries!K6:N6 - [309, 313, 'Wed Apr 15 14:19:10 2020', 'Successful']
+Multiprocessing completed in 105.41 seconds
+Data from Google Sheet retrieved at Wed Apr 15 14:19:13 2020
+Beginning multiprocessing at Wed Apr 15 14:19:13 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1569, 1502, 'Wed Apr 15 14:19:32 2020', 'Successful']
+queries!K3:N3 - [290118, 271162, 'Wed Apr 15 14:19:53 2020', 'Successful']
+queries!K4:N4 - [208134, 164927, 'Wed Apr 15 14:20:20 2020', 'Successful']
+queries!K5:N5 - [3355312, 3166465, 'Wed Apr 15 14:20:45 2020', 'Successful']
+queries!K6:N6 - [297, 322, 'Wed Apr 15 14:21:16 2020', 'Successful']
+Multiprocessing completed in 123.75 seconds
+Data from Google Sheet retrieved at Wed Apr 15 14:21:18 2020
+Beginning multiprocessing at Wed Apr 15 14:21:18 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1582, 1493, 'Wed Apr 15 14:21:40 2020', 'Successful']
+queries!K3:N3 - [298205, 274135, 'Wed Apr 15 14:22:04 2020', 'Successful']
+queries!K4:N4 - [213852, 167180, 'Wed Apr 15 14:22:29 2020', 'Successful']
+queries!K5:N5 - [3447950, 3200815, 'Wed Apr 15 14:22:50 2020', 'Successful']
+queries!K6:N6 - [354, 322, 'Wed Apr 15 14:23:12 2020', 'Successful']
+Multiprocessing completed in 115.53 seconds
+Data from Google Sheet retrieved at Wed Apr 15 14:23:16 2020
+Beginning multiprocessing at Wed Apr 15 14:23:16 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1622, 1510, 'Wed Apr 15 14:23:32 2020', 'Successful']
+queries!K3:N3 - [290094, 276525, 'Wed Apr 15 14:23:55 2020', 'Successful']
+queries!K4:N4 - [208093, 168999, 'Wed Apr 15 14:24:19 2020', 'Successful']
+queries!K5:N5 - [3558524, 3228646, 'Wed Apr 15 14:24:39 2020', 'Successful']
+queries!K6:N6 - [680, 322, 'Wed Apr 15 14:25:00 2020', 'Successful']
+Multiprocessing completed in 106.69 seconds
+Data from Google Sheet retrieved at Wed Apr 15 14:25:03 2020
+Beginning multiprocessing at Wed Apr 15 14:25:03 2020, running 10 queries on 16 threads
+queries!K2:N2 - [1559, 1518, 'Wed Apr 15 14:25:22 2020', 'Successful']

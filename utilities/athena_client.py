@@ -34,7 +34,7 @@ class athena_API():
                       and site_id = '{row_dict['site_id']}'
                       and access_time > date_add('minute', - 60, NOW())  -- 60*24*7 + 60
                       and ds >= CAST(DATE(date_add('day', -1, NOW())) as VARCHAR) -- efficency, reduces the search scope
-                      and regexp_like(lower(request_path), '{row_dict['url']}') = true
+                      and regexp_like(lower(request_path), '{row_dict['url_match']}') = true
                       {row_dict['and_condition']}
                       '''
     def _lw_query(self, row):
@@ -47,7 +47,7 @@ class athena_API():
                       and access_time <= date_add('minute', - 10080, NOW()) -- 60*24*7
                       and ds >= CAST(DATE(date_add('day', -8, NOW())) as VARCHAR) -- efficency, reduces the search scope
                       and ds <= CAST(DATE(date_add('day', -6, NOW())) as VARCHAR) -- efficency, reduces the search scope
-                      and regexp_like(lower(request_path), '{row_dict['url']}') = true
+                      and regexp_like(lower(request_path), '{row_dict['url_match']}') = true
                       {row_dict['and_condition']}
                       '''
 
