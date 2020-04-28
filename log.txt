@@ -1783,3 +1783,4 @@ Multiprocessing completed in 106.69 seconds
 Data from Google Sheet retrieved at Wed Apr 15 14:25:03 2020
 Beginning multiprocessing at Wed Apr 15 14:25:03 2020, running 10 queries on 16 threads
 queries!K2:N2 - [1559, 1518, 'Wed Apr 15 14:25:22 2020', 'Successful']
+queries!K3:N3 - [299752, 279537, 'Wed Apr 15 14:25:43 2020', 'Successful']
