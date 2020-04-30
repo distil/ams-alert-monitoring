@@ -4,7 +4,10 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 import pandas as pd
 import os
-    
+
+# Spreadsheet is in:
+# https://docs.google.com/spreadsheets/d/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk
+
 class google_sheet_API():
     # Default spreadsheet_id value is athena attack alerting
     def __init__(self):
@@ -34,28 +37,23 @@ class google_sheet_API():
                 pickle.dump(creds, token)
         return build('sheets', 'v4', credentials=creds)
     
-    def get_google_sheet(self, service, SPREADSHEET_ID, RANGE_NAME):
+    def get_google_sheet(self
+                        , service
+                        , SPREADSHEET_ID='10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk'
+                        , RANGE_NAME = 'queries'):
         '''Call the Sheets API and retrieve the sheet in dataframe format'''
         sheet = service.spreadsheets()
         result = sheet.values().get(spreadsheetId=SPREADSHEET_ID, range=RANGE_NAME).execute()
         values = result.get('values', [])
-
         return pd.DataFrame(values[1:], columns=values[0])
     
-    def retrieve_sheet_as_df(self
-                             , SPREADSHEET_ID='10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk'
-                             , RANGE_NAME = 'queries'):        
-        service = self.retrieve_gservice()
-        df = self.get_google_sheet(service, SPREADSHEET_ID, RANGE_NAME)
-        return df
-    
     def update_sheet(self
-                     , cell
-                     , value
-                     , SPREADSHEET_ID='10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk'
-                     , RANGE_NAME = 'queries'):
+                    , service
+                    , cell
+                    , value
+                    , SPREADSHEET_ID='10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk'
+                    , RANGE_NAME = 'queries'):
         '''Given a cell, a value, it will update the spreadsheet accordingly'''
-        service = self.retrieve_gservice()
         sheet = service.spreadsheets()
         body = {'values': [value]}
         result = sheet.values().update(spreadsheetId=SPREADSHEET_ID, 
