@@ -3,6 +3,7 @@ from utilities.athena_client import athena_API
 from utilities.slack_client import slack_API
 import multiprocessing as mp
 import time
+# Test version 2
 
 # Initialise the 2 APIs 
 gsheetAPI = google_sheet_API()
