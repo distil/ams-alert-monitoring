@@ -16,6 +16,19 @@ sql_query = athenaAPI.get_SQL_query()
 
 def process_row(row_idx, row_dict, service):
     cell_address = f'O{row_idx+2}'
+
+    # Step 0: Do I have all values to process the row?
+    print('test')
+    for val in ['threshold_one | 0-7'
+                ,'threshold_two | 8-15'
+                ,'threshold_three | 16-23'
+                ,'multiplier']:
+        if row_dict.get(val) == '':
+            execution_results = f"Couldn't process row {row_idx+2}, field: {val} is empty"
+            write_log(execution_results)
+            gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
+            return
+
     
     # Step 1: Generate the clauses 
     for identifier_id in ['account_id', 'domain_id', 'site_id']:
@@ -35,6 +48,7 @@ def process_row(row_idx, row_dict, service):
         domain = row_dict.get('domain')
         slackAPI.send_message(f"Error for domain {domain} | row {row_idx+2} | Query returned error: \n```{e}```")
         execution_results = f"Error | Query returned error: {e}"
+        write_log(execution_results)
         gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
         return
 
@@ -43,6 +57,7 @@ def process_row(row_idx, row_dict, service):
         domain = row_dict.get('domain')
         slackAPI.send_message(f"Error for domain {domain} | row {row_idx} | Query returned 0 results")
         execution_results = "Error | query returned 0 results"
+        write_log(execution_results)
         gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
         return
 
@@ -96,4 +111,4 @@ if __name__ == '__main__':
         write_log(f'Multiprocessing completed in {exec_time} seconds')
 
         # Wait 5 minutes before starting again
-        time.sleep(5*60)
+        time.sleep(1)
