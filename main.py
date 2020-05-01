@@ -15,6 +15,8 @@ slackAPI = slack_API()
 sql_query = athenaAPI.get_SQL_query()
 
 def process_row(row_idx, row_dict, service):
+    cell_address = f'O{row_idx+2}'
+    
     # Step 1: Generate the clauses 
     for identifier_id in ['account_id', 'domain_id', 'site_id']:
         if row_dict[identifier_id] != '':
@@ -27,7 +29,25 @@ def process_row(row_idx, row_dict, service):
     row_dict['threshold_three'] = '\'' + row_dict['threshold_three | 16-23'] + '\''
     
     # Step 2: Execute the query
-    results = athenaAPI.get_pandas_df(sql_query.format(**row_dict)).to_dict('records')[0]
+    try:
+        df = athenaAPI.get_pandas_df(sql_query.format(**row_dict))
+    except Exception as e:
+        domain = row_dict.get('domain')
+        slackAPI.send_message(f"Error for domain {domain} | row {row_idx+2} | Query returned error: \n```{e}```")
+        execution_results = f"Error | Query returned error: {e}"
+        gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
+        return
+
+    # Failsafe in case there are no results from db
+    if df.empty:
+        domain = row_dict.get('domain')
+        slackAPI.send_message(f"Error for domain {domain} | row {row_idx} | Query returned 0 results")
+        execution_results = "Error | query returned 0 results"
+        gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
+        return
+
+    # Get them in a dict format
+    results = df.to_dict('records')[0]
 
     # Step 3: check logic and send to slack:
     requests = int(results.get('requests'))
@@ -38,18 +58,21 @@ def process_row(row_idx, row_dict, service):
         try:
             message = compose_slack_alert(row_idx, row_dict, results)
             slackAPI.send_message(message)
-            client_message = f'Successful | {requests} requests | Slack alert sent at {time.asctime(datetime.utcnow().timetuple())}'
+            execution_results = f'Successful | {requests} requests | Slack alert sent at {time.asctime(datetime.utcnow().timetuple())}'
+            write_log(execution_results)
+            gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
         except Exception as e:
             domain = row_dict.get('domain')
             slackAPI.send_message(f"Error for domain {domain}, row {row_idx}, query returned error:\n ```{str(e)}```")
-            client_message = str(e)
+            execution_results = f"Error: {str(e)}"
+            write_log(execution_results)
+            gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
     else:
-        client_message = 'Successful | No alert triggered'
-    
-    # Update Google sheet
-    cell_address = f'O{row_idx+2}'
-    gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), client_message])
+        execution_results = 'Successful | No alert triggered'
+        gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
+        write_log(execution_results)
 
+    
 # MAIN LOOP 
 # ------------------
 if __name__ == '__main__':
@@ -71,3 +94,6 @@ if __name__ == '__main__':
         # Print how long it took for a full cycle
         exec_time = "{:.2f}".format(time.time() - time_start)
         write_log(f'Multiprocessing completed in {exec_time} seconds')
+
+        # Wait 5 minutes before starting again
+        time.sleep(5*60)

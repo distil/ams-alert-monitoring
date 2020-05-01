@@ -21,7 +21,7 @@ class athena_API():
         return pyathena.connect(**keys)
 
     def get_pandas_df(self, query):
-        connection = self._get_db_connection()
+        connection = self._get_db_connection()   
         return pd.read_sql(query, connection)
 
     def get_SQL_query(self):

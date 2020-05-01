@@ -29,7 +29,7 @@ Domain: _{domain}_ | Url: _{ilike_url}_ | Time: _{time.asctime()}_
 Request count exceded the threshold:
 ```- Request count: {requests}
 - Threshold: {threshold}
-- Threshold w multiplier: {int(int(threshold)*float(multiplier))}
+- Threshold w/multiplier: {int(int(threshold)*float(multiplier))}
 - Threshold bucket: {threshold_bucket}
 - Percentage increase: {round(int(requests)/int(threshold)*100-100, 2)}%```
 <{gsheet_link}|Attack monitor sheet> | row: {row_idx+2}
