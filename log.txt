@@ -1797,3 +1797,56 @@ Beginning multiprocessing at Thu Apr 30 13:57:14 2020, running 10 queries on 16 
 Multiprocessing completed in 0.17 seconds
 Data from Google Sheet retrieved at Thu Apr 30 13:57:15 2020
 Beginning multiprocessing at Thu Apr 30 13:57:15 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Fri May  1 10:08:24 2020
+Beginning multiprocessing at Fri May  1 10:08:24 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Fri May  1 12:33:54 2020
+Beginning multiprocessing at Fri May  1 12:33:54 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Fri May  1 12:38:31 2020
+Beginning multiprocessing at Fri May  1 12:38:31 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Fri May  1 12:42:06 2020
+Beginning multiprocessing at Fri May  1 12:42:06 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Fri May  1 12:43:55 2020
+Beginning multiprocessing at Fri May  1 12:43:55 2020, running 10 queries on 16 threads
+Multiprocessing completed in 92.58 seconds
+Data from Google Sheet retrieved at Fri May  1 12:45:35 2020
+Beginning multiprocessing at Fri May  1 12:45:35 2020, running 10 queries on 16 threads
+Multiprocessing completed in 88.29 seconds
+Data from Google Sheet retrieved at Fri May  1 12:47:11 2020
+Beginning multiprocessing at Fri May  1 12:47:11 2020, running 10 queries on 16 threads
+Multiprocessing completed in 79.93 seconds
+Data from Google Sheet retrieved at Fri May  1 12:48:38 2020
+Beginning multiprocessing at Fri May  1 12:48:38 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Fri May  1 12:50:19 2020
+Beginning multiprocessing at Fri May  1 12:50:19 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Fri May  1 12:54:11 2020
+Beginning multiprocessing at Fri May  1 12:54:11 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Fri May  1 12:56:18 2020
+Beginning multiprocessing at Fri May  1 12:56:18 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Fri May  1 12:56:38 2020
+Beginning multiprocessing at Fri May  1 12:56:38 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Fri May  1 12:57:27 2020
+Beginning multiprocessing at Fri May  1 12:57:27 2020, running 10 queries on 16 threads
+Multiprocessing completed in 117.07 seconds
+Data from Google Sheet retrieved at Fri May  1 12:59:32 2020
+Beginning multiprocessing at Fri May  1 12:59:32 2020, running 10 queries on 16 threads
+Multiprocessing completed in 146.50 seconds
+Data from Google Sheet retrieved at Fri May  1 13:02:10 2020
+Beginning multiprocessing at Fri May  1 13:02:10 2020, running 10 queries on 16 threads
+Data from Google Sheet retrieved at Fri May  1 13:03:54 2020
+Beginning multiprocessing at Fri May  1 13:03:54 2020, running 8 queries on 16 threads
+Data from Google Sheet retrieved at Fri May  1 12:21:11 2020
+Beginning multiprocessing at Fri May  1 12:21:11 2020, running 4 queries on 16 threads
+Data from Google Sheet retrieved at Fri May  1 12:23:41 2020
+Beginning multiprocessing at Fri May  1 12:23:41 2020, running 4 queries on 16 threads
+Multiprocessing completed in 83.38 seconds
+Data from Google Sheet retrieved at Fri May  1 12:25:12 2020
+Beginning multiprocessing at Fri May  1 12:25:12 2020, running 4 queries on 16 threads
+Multiprocessing completed in 81.47 seconds
+Data from Google Sheet retrieved at Fri May  1 12:26:47 2020
+Beginning multiprocessing at Fri May  1 12:26:47 2020, running 4 queries on 16 threads
+Multiprocessing completed in 97.47 seconds
+Data from Google Sheet retrieved at Fri May  1 12:28:27 2020
+Beginning multiprocessing at Fri May  1 12:28:27 2020, running 4 queries on 16 threads
+Multiprocessing completed in 91.38 seconds
+Data from Google Sheet retrieved at Fri May  1 12:30:38 2020
+Beginning multiprocessing at Fri May  1 12:30:38 2020, running 4 queries on 16 threads

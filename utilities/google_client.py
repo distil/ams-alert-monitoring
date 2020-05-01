@@ -5,6 +5,8 @@ from google.auth.transport.requests import Request
 import pandas as pd
 import os
 
+gsheet_link = 'https://docs.google.com/spreadsheets/d/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk'
+
 # Spreadsheet is in:
 # https://docs.google.com/spreadsheets/d/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk
 
@@ -12,7 +14,6 @@ class google_sheet_API():
     # Default spreadsheet_id value is athena attack alerting
     def __init__(self):
         # If modifying these scopes, delete the file token.pickle!
-        self.gsheet_link = 'https://docs.google.com/spreadsheets/d/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk'
         self.SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
         #SPREADSHEET_ID = '1UUp2TOeC4i2DaNT1FEzM6C-QfwHvP_32gJDisLvC0Ak' # presto attack alerting
         

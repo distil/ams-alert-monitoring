@@ -23,3 +23,9 @@ class athena_API():
     def get_pandas_df(self, query):
         connection = self._get_db_connection()
         return pd.read_sql(query, connection)
+
+    def get_SQL_query(self):
+        # Retrieve SQL query
+        with open('main_query.sql', 'r') as f:
+            sql_query = f.read()
+        return sql_query
