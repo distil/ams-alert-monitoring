@@ -18,7 +18,6 @@ def process_row(row_idx, row_dict, service):
     cell_address = f'O{row_idx+2}'
 
     # Step 0: Do I have all values to process the row?
-    print('test')
     for val in ['threshold_one | 0-7'
                 ,'threshold_two | 8-15'
                 ,'threshold_three | 16-23'

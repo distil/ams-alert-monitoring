@@ -1,6 +1,6 @@
 import time
 from utilities.google_client import gsheet_link
-
+# added line
 # Helper function to write logs and console at the same time
 def write_log(line):
     print(line)
