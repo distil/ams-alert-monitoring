@@ -4,7 +4,7 @@ from utilities.google_client import gsheet_link
 # Helper function to write logs and console at the same time
 def write_log(line):
     print(line)
-    with open("log.txt", "a+") as logs:
+    with open("log/log.txt", "a+") as logs:
         logs.write(f"{line}\r\n")
         
 # Generate the looker url string
