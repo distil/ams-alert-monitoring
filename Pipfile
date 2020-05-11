@@ -16,6 +16,7 @@ google-auth-oauthlib = "*"
 pyathena = "*"
 slackclient = "*"
 nest-asyncio = "*"
+colorclass = "*"
 
 [requires]
 python_version = "3.7"

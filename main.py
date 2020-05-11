@@ -1,7 +1,7 @@
 from utilities.google_client import google_sheet_API
 from utilities.athena_client import athena_API
 from utilities.slack_client import slack_API
-from utilities.helper import write_log, generate_looker_url, compose_slack_alert
+from utilities.helper import print_to_terminal_and_log, generate_looker_url, compose_slack_alert
 import multiprocessing as mp
 import time
 from datetime import datetime
@@ -24,7 +24,7 @@ def process_row(row_idx, row_dict, service):
                 ,'multiplier']:
         if row_dict.get(val) == '':
             execution_results = f"Couldn't process row {row_idx+2}, field: {val} is empty"
-            write_log(execution_results)
+            print_to_terminal_and_log(execution_results)
             gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
             return
 
@@ -47,7 +47,7 @@ def process_row(row_idx, row_dict, service):
         domain = row_dict.get('domain')
         slackAPI.send_message(f"Error for domain {domain} | row {row_idx+2} | Query returned error: \n```{e}```")
         execution_results = f"Error | Query returned error: {e}"
-        write_log(execution_results)
+        print_to_terminal_and_log(execution_results)
         gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
         return
 
@@ -56,7 +56,7 @@ def process_row(row_idx, row_dict, service):
         domain = row_dict.get('domain')
         slackAPI.send_message(f"Error for domain {domain} | row {row_idx} | Query returned 0 results")
         execution_results = "Error | query returned 0 results"
-        write_log(execution_results)
+        print_to_terminal_and_log(execution_results, 'red')
         gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
         return
 
@@ -72,19 +72,19 @@ def process_row(row_idx, row_dict, service):
         try:
             message = compose_slack_alert(row_idx, row_dict, results)
             slackAPI.send_message(message)
-            execution_results = f'Successful | {requests} requests | Slack alert sent at {time.asctime(datetime.utcnow().timetuple())}'
-            write_log(execution_results)
+            execution_results = f'Successful | {requests} requests | Slack alert sent at {time.asctime(datetime.utcnow().timetuple())},'
+            print_to_terminal_and_log(execution_results, 'yellow')
             gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
         except Exception as e:
             domain = row_dict.get('domain')
             slackAPI.send_message(f"Error for domain {domain}, row {row_idx}, query returned error:\n ```{str(e)}```")
             execution_results = f"Error: {str(e)}"
-            write_log(execution_results)
+            print_to_terminal_and_log(execution_results, 'red')
             gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
     else:
         execution_results = 'Successful | No alert triggered'
         gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
-        write_log(execution_results)
+        print_to_terminal_and_log(execution_results, 'green')
 
     
 # MAIN LOOP 
@@ -94,20 +94,20 @@ if __name__ == '__main__':
         # Retrieve GSheet
         service = gsheetAPI.retrieve_gservice()
         gsheet_df = gsheetAPI.get_google_sheet(service=service)
-        write_log(f'Data from Google Sheet retrieved at {time.asctime(datetime.utcnow().timetuple())}')
+        print_to_terminal_and_log(f'Data from Google Sheet retrieved at {time.asctime(datetime.utcnow().timetuple())}', 'green')
 
         # Prepare a list of dicts
         row_list = [(row_idx, row_dict, service) for row_idx, row_dict in gsheet_df.iterrows() if row_dict.get('status') != 'pause']
 
         # Multiprocessing to run the queries simultaneously, it has to stay in the main function
-        write_log(f'Beginning multiprocessing at {time.asctime(datetime.utcnow().timetuple())}, running {len(row_list)} queries on {mp.cpu_count()} threads')
+        print_to_terminal_and_log(f'Beginning multiprocessing at {time.asctime(datetime.utcnow().timetuple())}, running {len(row_list)} queries on {mp.cpu_count()} threads')
         time_start = time.time()
         with mp.Pool(mp.cpu_count()) as pool:
             results = [pool.apply(process_row, args=row) for row in row_list]
 
         # Print how long it took for a full cycle
         exec_time = "{:.2f}".format(time.time() - time_start)
-        write_log(f'Multiprocessing completed in {exec_time} seconds')
+        print_to_terminal_and_log(f'Multiprocessing completed in {exec_time} seconds', 'green')
 
         # Wait 5 minutes before starting again
         time.sleep(1)

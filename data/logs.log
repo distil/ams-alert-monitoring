@@ -1,0 +1,90 @@
+INFO:root:Mon May 11 13:44:52 2020 - Data from Google Sheet retrieved at Mon May 11 13:44:52 2020
+INFO:root:Mon May 11 13:44:52 2020 - Beginning multiprocessing at Mon May 11 13:44:52 2020, running 4 queries on 16 threads
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O2?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:45:05 2020 - Successful | No alert triggered
+INFO:root:Mon May 11 13:45:18 2020 - Error | query returned 0 results
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O3?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:45:30 2020 - Successful | 356207 requests | Slack alert sent at Mon May 11 13:45:30 2020
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O4?valueInputOption=USER_ENTERED&alt=json
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O6?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:46:02 2020 - Successful | No alert triggered
+INFO:root:Mon May 11 13:46:02 2020 - Multiprocessing completed in 70.23 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 36, in autodetect
+    from google.appengine.api import memcache
+ModuleNotFoundError: No module named 'google.appengine'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 42, in autodetect
+    from . import file_cache
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+INFO:googleapiclient.discovery:URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/queries?alt=json
+INFO:root:Mon May 11 13:46:05 2020 - Data from Google Sheet retrieved at Mon May 11 13:46:05 2020
+INFO:root:Mon May 11 13:46:05 2020 - Beginning multiprocessing at Mon May 11 13:46:05 2020, running 4 queries on 16 threads
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O2?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:46:18 2020 - Successful | No alert triggered
+INFO:root:Mon May 11 13:46:34 2020 - Data from Google Sheet retrieved at Mon May 11 13:46:34 2020
+INFO:root:Mon May 11 13:46:34 2020 - Beginning multiprocessing at Mon May 11 13:46:34 2020, running 4 queries on 16 threads
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O2?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:46:46 2020 - Successful | No alert triggered
+INFO:root:Mon May 11 13:46:58 2020 - Error | query returned 0 results
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O3?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:47:11 2020 - Successful | 348224 requests | Slack alert sent at Mon May 11 13:47:11 2020,
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O4?valueInputOption=USER_ENTERED&alt=json
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O6?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:47:22 2020 - Successful | No alert triggered
+INFO:root:Mon May 11 13:47:22 2020 - Multiprocessing completed in 48.56 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 36, in autodetect
+    from google.appengine.api import memcache
+ModuleNotFoundError: No module named 'google.appengine'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 42, in autodetect
+    from . import file_cache
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+INFO:googleapiclient.discovery:URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/queries?alt=json
+INFO:root:Mon May 11 13:47:25 2020 - Data from Google Sheet retrieved at Mon May 11 13:47:25 2020
+INFO:root:Mon May 11 13:47:25 2020 - Beginning multiprocessing at Mon May 11 13:47:25 2020, running 4 queries on 16 threads
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O2?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:47:34 2020 - Successful | No alert triggered

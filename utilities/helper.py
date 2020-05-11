@@ -1,6 +1,30 @@
 import time
+from datetime import datetime
 from utilities.google_client import gsheet_link
-# added line
+from colorclass import Color
+import logging
+
+def print_to_terminal_and_log(text, color='white', level_name='info'):
+    ''''color' set the color when displaying to terminal
+       'level_name' the log level'''
+    LOG_FILENAME = 'data/logs.log'
+
+    LEVELS = {'debug': logging.DEBUG,
+             'info': logging.INFO,
+             'warning': logging.WARNING,
+             'error': logging.ERROR,
+             'critical': logging.CRITICAL}
+    
+    level = LEVELS.get(level_name, logging.NOTSET)
+    logging.basicConfig(filename=LOG_FILENAME,level=level)
+
+    asctime = time.asctime(datetime.utcnow().timetuple())
+
+    message = Color('{auto'+ color + '}' + text + '{/auto'+ color + '}')
+    print(asctime, '-', message)
+
+    logging.info(asctime + ' - '+ text)
+
 # Helper function to write logs and console at the same time
 def write_log(line):
     print(line)
