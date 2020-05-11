@@ -15,7 +15,7 @@ google-auth-httplib2 = "*"
 google-auth-oauthlib = "*"
 pyathena = "*"
 slackclient = "*"
-nest-asyncio = "*"
+nest-asyncio = "*" 
 colorclass = "*"
 
 [requires]
