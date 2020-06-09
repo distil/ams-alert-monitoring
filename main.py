@@ -27,7 +27,6 @@ def process_row(row_idx, row_dict, service):
             print_to_terminal_and_log(execution_results)
             gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
             return
-
     
     # Step 1: Generate the clauses 
     for identifier_id in ['account_id', 'domain_id', 'site_id']:
@@ -110,4 +109,4 @@ if __name__ == '__main__':
         print_to_terminal_and_log(f'Multiprocessing completed in {exec_time} seconds', 'green')
 
         # Wait 5 minutes before starting again
-        time.sleep(1)
+        time.sleep(360)
