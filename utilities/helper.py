@@ -46,6 +46,8 @@ def compose_slack_alert(row_idx, row_dict, results):
     threshold = results.get('threshold')
     multiplier = row_dict.get('multiplier')
     threshold_bucket = results.get('threshold_bucket')
+    note = results.get('note')
+    owner = results.get('owner')
     looker_url = generate_looker_url(row_dict)
     
     return f'''ALERT! :warning: 
@@ -55,6 +57,8 @@ Request count exceded the threshold:
 - Threshold: {threshold}
 - Threshold w/multiplier: {int(int(threshold)*float(multiplier))}
 - Threshold bucket: {threshold_bucket}
-- Percentage increase: {round(int(requests)/int(threshold)*100-100, 2)}%```
+- Percentage increase: {round(int(requests)/int(threshold)*100-100, 2)}%
+- Note: {note}
+- Owner: {owner}```
 <{gsheet_link}|Attack monitor sheet> | row: {row_idx+2}
 <{looker_url}|Looker Dashboard>'''
