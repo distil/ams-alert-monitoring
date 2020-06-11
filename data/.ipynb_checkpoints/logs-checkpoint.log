@@ -1,0 +1,1088 @@
+INFO:root:Mon May 11 13:44:52 2020 - Data from Google Sheet retrieved at Mon May 11 13:44:52 2020
+INFO:root:Mon May 11 13:44:52 2020 - Beginning multiprocessing at Mon May 11 13:44:52 2020, running 4 queries on 16 threads
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O2?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:45:05 2020 - Successful | No alert triggered
+INFO:root:Mon May 11 13:45:18 2020 - Error | query returned 0 results
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O3?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:45:30 2020 - Successful | 356207 requests | Slack alert sent at Mon May 11 13:45:30 2020
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O4?valueInputOption=USER_ENTERED&alt=json
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O6?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:46:02 2020 - Successful | No alert triggered
+INFO:root:Mon May 11 13:46:02 2020 - Multiprocessing completed in 70.23 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 36, in autodetect
+    from google.appengine.api import memcache
+ModuleNotFoundError: No module named 'google.appengine'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 42, in autodetect
+    from . import file_cache
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+INFO:googleapiclient.discovery:URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/queries?alt=json
+INFO:root:Mon May 11 13:46:05 2020 - Data from Google Sheet retrieved at Mon May 11 13:46:05 2020
+INFO:root:Mon May 11 13:46:05 2020 - Beginning multiprocessing at Mon May 11 13:46:05 2020, running 4 queries on 16 threads
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O2?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:46:18 2020 - Successful | No alert triggered
+INFO:root:Mon May 11 13:46:34 2020 - Data from Google Sheet retrieved at Mon May 11 13:46:34 2020
+INFO:root:Mon May 11 13:46:34 2020 - Beginning multiprocessing at Mon May 11 13:46:34 2020, running 4 queries on 16 threads
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O2?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:46:46 2020 - Successful | No alert triggered
+INFO:root:Mon May 11 13:46:58 2020 - Error | query returned 0 results
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O3?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:47:11 2020 - Successful | 348224 requests | Slack alert sent at Mon May 11 13:47:11 2020,
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O4?valueInputOption=USER_ENTERED&alt=json
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O6?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:47:22 2020 - Successful | No alert triggered
+INFO:root:Mon May 11 13:47:22 2020 - Multiprocessing completed in 48.56 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 36, in autodetect
+    from google.appengine.api import memcache
+ModuleNotFoundError: No module named 'google.appengine'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 42, in autodetect
+    from . import file_cache
+  File "/Users/emanuele.bonura/.local/share/virtualenvs/ams-alert-monitoring-0ROOZaQw/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+INFO:googleapiclient.discovery:URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/queries?alt=json
+INFO:root:Mon May 11 13:47:25 2020 - Data from Google Sheet retrieved at Mon May 11 13:47:25 2020
+INFO:root:Mon May 11 13:47:25 2020 - Beginning multiprocessing at Mon May 11 13:47:25 2020, running 4 queries on 16 threads
+INFO:googleapiclient.discovery:URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/10QCryRqYBlS-kE_ExHaGaSZU2JfS88BGcBss-KYr0Wk/values/O2?valueInputOption=USER_ENTERED&alt=json
+INFO:root:Mon May 11 13:47:34 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 11:31:03 2020 - Data from Google Sheet retrieved at Tue Jun  9 11:31:03 2020
+INFO:root:Tue Jun  9 11:31:03 2020 - Beginning multiprocessing at Tue Jun  9 11:31:03 2020, running 4 queries on 1 threads
+INFO:root:Tue Jun  9 11:31:15 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 11:31:29 2020 - Error | query returned 0 results
+INFO:root:Tue Jun  9 11:31:47 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 11:32:00 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 11:32:00 2020 - Multiprocessing completed in 57.07 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 11:38:02 2020 - Data from Google Sheet retrieved at Tue Jun  9 11:38:02 2020
+INFO:root:Tue Jun  9 11:38:02 2020 - Beginning multiprocessing at Tue Jun  9 11:38:02 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 11:38:17 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 11:38:33 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 11:38:33 2020 - Multiprocessing completed in 30.60 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 11:44:34 2020 - Data from Google Sheet retrieved at Tue Jun  9 11:44:34 2020
+INFO:root:Tue Jun  9 11:44:34 2020 - Beginning multiprocessing at Tue Jun  9 11:44:34 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 11:44:48 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 11:45:02 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 11:45:02 2020 - Multiprocessing completed in 27.48 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 11:51:03 2020 - Data from Google Sheet retrieved at Tue Jun  9 11:51:03 2020
+INFO:root:Tue Jun  9 11:51:03 2020 - Beginning multiprocessing at Tue Jun  9 11:51:03 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 11:51:15 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 11:51:34 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 11:51:34 2020 - Multiprocessing completed in 30.60 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 11:57:35 2020 - Data from Google Sheet retrieved at Tue Jun  9 11:57:35 2020
+INFO:root:Tue Jun  9 11:57:35 2020 - Beginning multiprocessing at Tue Jun  9 11:57:35 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 11:57:48 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 11:58:02 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 11:58:02 2020 - Multiprocessing completed in 26.28 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 12:04:03 2020 - Data from Google Sheet retrieved at Tue Jun  9 12:04:03 2020
+INFO:root:Tue Jun  9 12:04:03 2020 - Beginning multiprocessing at Tue Jun  9 12:04:03 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 12:04:29 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:04:55 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:04:55 2020 - Multiprocessing completed in 51.55 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 12:10:56 2020 - Data from Google Sheet retrieved at Tue Jun  9 12:10:56 2020
+INFO:root:Tue Jun  9 12:10:56 2020 - Beginning multiprocessing at Tue Jun  9 12:10:56 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 12:11:11 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:11:29 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:11:29 2020 - Multiprocessing completed in 32.80 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 12:17:31 2020 - Data from Google Sheet retrieved at Tue Jun  9 12:17:31 2020
+INFO:root:Tue Jun  9 12:17:31 2020 - Beginning multiprocessing at Tue Jun  9 12:17:31 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 12:17:46 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:18:04 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:18:04 2020 - Multiprocessing completed in 33.00 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 12:24:05 2020 - Data from Google Sheet retrieved at Tue Jun  9 12:24:05 2020
+INFO:root:Tue Jun  9 12:24:05 2020 - Beginning multiprocessing at Tue Jun  9 12:24:05 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 12:24:21 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:24:37 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:24:37 2020 - Multiprocessing completed in 31.80 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 12:30:39 2020 - Data from Google Sheet retrieved at Tue Jun  9 12:30:39 2020
+INFO:root:Tue Jun  9 12:30:39 2020 - Beginning multiprocessing at Tue Jun  9 12:30:39 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 12:31:05 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:31:23 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:31:24 2020 - Multiprocessing completed in 44.83 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 12:37:25 2020 - Data from Google Sheet retrieved at Tue Jun  9 12:37:25 2020
+INFO:root:Tue Jun  9 12:37:25 2020 - Beginning multiprocessing at Tue Jun  9 12:37:25 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 12:37:42 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:37:58 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:37:58 2020 - Multiprocessing completed in 33.00 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 12:44:00 2020 - Data from Google Sheet retrieved at Tue Jun  9 12:44:00 2020
+INFO:root:Tue Jun  9 12:44:00 2020 - Beginning multiprocessing at Tue Jun  9 12:44:00 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 12:44:12 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:44:30 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:44:31 2020 - Multiprocessing completed in 30.80 seconds
+INFO:root:Tue Jun  9 12:47:44 2020 - Data from Google Sheet retrieved at Tue Jun  9 12:47:44 2020
+INFO:root:Tue Jun  9 12:47:44 2020 - Beginning multiprocessing at Tue Jun  9 12:47:44 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 12:47:56 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:48:13 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:48:13 2020 - Multiprocessing completed in 29.29 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 12:54:15 2020 - Data from Google Sheet retrieved at Tue Jun  9 12:54:15 2020
+INFO:root:Tue Jun  9 12:54:15 2020 - Beginning multiprocessing at Tue Jun  9 12:54:15 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 12:54:29 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:54:44 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 12:54:44 2020 - Multiprocessing completed in 28.59 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 13:00:45 2020 - Data from Google Sheet retrieved at Tue Jun  9 13:00:45 2020
+INFO:root:Tue Jun  9 13:00:45 2020 - Beginning multiprocessing at Tue Jun  9 13:00:45 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 13:01:28 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:02:03 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:02:03 2020 - Multiprocessing completed in 78.22 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 13:08:05 2020 - Data from Google Sheet retrieved at Tue Jun  9 13:08:05 2020
+INFO:root:Tue Jun  9 13:08:05 2020 - Beginning multiprocessing at Tue Jun  9 13:08:05 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 13:08:21 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:08:39 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:08:39 2020 - Multiprocessing completed in 33.90 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 13:14:40 2020 - Data from Google Sheet retrieved at Tue Jun  9 13:14:40 2020
+INFO:root:Tue Jun  9 13:14:40 2020 - Beginning multiprocessing at Tue Jun  9 13:14:40 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 13:14:53 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:15:10 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:15:10 2020 - Multiprocessing completed in 29.29 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 13:21:11 2020 - Data from Google Sheet retrieved at Tue Jun  9 13:21:11 2020
+INFO:root:Tue Jun  9 13:21:11 2020 - Beginning multiprocessing at Tue Jun  9 13:21:11 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 13:21:33 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:21:49 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:21:50 2020 - Multiprocessing completed in 38.41 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 13:27:51 2020 - Data from Google Sheet retrieved at Tue Jun  9 13:27:51 2020
+INFO:root:Tue Jun  9 13:27:51 2020 - Beginning multiprocessing at Tue Jun  9 13:27:51 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 13:28:02 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:28:18 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:28:18 2020 - Multiprocessing completed in 26.39 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 13:34:19 2020 - Data from Google Sheet retrieved at Tue Jun  9 13:34:19 2020
+INFO:root:Tue Jun  9 13:34:19 2020 - Beginning multiprocessing at Tue Jun  9 13:34:19 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 13:34:34 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:34:49 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:34:49 2020 - Multiprocessing completed in 29.59 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 13:40:51 2020 - Data from Google Sheet retrieved at Tue Jun  9 13:40:51 2020
+INFO:root:Tue Jun  9 13:40:51 2020 - Beginning multiprocessing at Tue Jun  9 13:40:51 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 13:41:03 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:41:22 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:41:22 2020 - Multiprocessing completed in 31.69 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 13:47:24 2020 - Data from Google Sheet retrieved at Tue Jun  9 13:47:24 2020
+INFO:root:Tue Jun  9 13:47:24 2020 - Beginning multiprocessing at Tue Jun  9 13:47:24 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 13:47:38 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:47:51 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:47:51 2020 - Multiprocessing completed in 27.08 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 13:53:53 2020 - Data from Google Sheet retrieved at Tue Jun  9 13:53:53 2020
+INFO:root:Tue Jun  9 13:53:53 2020 - Beginning multiprocessing at Tue Jun  9 13:53:53 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 13:54:05 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:54:21 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 13:54:21 2020 - Multiprocessing completed in 27.79 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 14:00:22 2020 - Data from Google Sheet retrieved at Tue Jun  9 14:00:22 2020
+INFO:root:Tue Jun  9 14:00:23 2020 - Beginning multiprocessing at Tue Jun  9 14:00:23 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 14:00:46 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:01:03 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:01:03 2020 - Multiprocessing completed in 40.52 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 14:07:05 2020 - Data from Google Sheet retrieved at Tue Jun  9 14:07:05 2020
+INFO:root:Tue Jun  9 14:07:05 2020 - Beginning multiprocessing at Tue Jun  9 14:07:05 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 14:07:20 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:07:34 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:07:34 2020 - Multiprocessing completed in 29.49 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 14:13:36 2020 - Data from Google Sheet retrieved at Tue Jun  9 14:13:36 2020
+INFO:root:Tue Jun  9 14:13:36 2020 - Beginning multiprocessing at Tue Jun  9 14:13:36 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 14:13:54 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:14:12 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:14:12 2020 - Multiprocessing completed in 35.81 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 14:20:14 2020 - Data from Google Sheet retrieved at Tue Jun  9 14:20:14 2020
+INFO:root:Tue Jun  9 14:20:14 2020 - Beginning multiprocessing at Tue Jun  9 14:20:14 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 14:20:29 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:20:54 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:20:55 2020 - Multiprocessing completed in 41.02 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 14:26:56 2020 - Data from Google Sheet retrieved at Tue Jun  9 14:26:56 2020
+INFO:root:Tue Jun  9 14:26:56 2020 - Beginning multiprocessing at Tue Jun  9 14:26:56 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 14:27:09 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:27:29 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:27:29 2020 - Multiprocessing completed in 32.50 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 14:33:31 2020 - Data from Google Sheet retrieved at Tue Jun  9 14:33:31 2020
+INFO:root:Tue Jun  9 14:33:31 2020 - Beginning multiprocessing at Tue Jun  9 14:33:31 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 14:33:43 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:33:59 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:33:59 2020 - Multiprocessing completed in 28.29 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 14:40:00 2020 - Data from Google Sheet retrieved at Tue Jun  9 14:40:00 2020
+INFO:root:Tue Jun  9 14:40:00 2020 - Beginning multiprocessing at Tue Jun  9 14:40:00 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 14:40:27 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:40:43 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:40:43 2020 - Multiprocessing completed in 43.03 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 14:46:45 2020 - Data from Google Sheet retrieved at Tue Jun  9 14:46:45 2020
+INFO:root:Tue Jun  9 14:46:45 2020 - Beginning multiprocessing at Tue Jun  9 14:46:45 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 14:47:02 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:47:19 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:47:19 2020 - Multiprocessing completed in 33.50 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 14:53:20 2020 - Data from Google Sheet retrieved at Tue Jun  9 14:53:20 2020
+INFO:root:Tue Jun  9 14:53:20 2020 - Beginning multiprocessing at Tue Jun  9 14:53:20 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 14:53:34 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:53:50 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 14:53:50 2020 - Multiprocessing completed in 29.79 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 14:59:52 2020 - Data from Google Sheet retrieved at Tue Jun  9 14:59:52 2020
+INFO:root:Tue Jun  9 14:59:52 2020 - Beginning multiprocessing at Tue Jun  9 14:59:52 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 15:00:06 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 15:00:25 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 15:00:25 2020 - Multiprocessing completed in 33.03 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 15:06:26 2020 - Data from Google Sheet retrieved at Tue Jun  9 15:06:26 2020
+INFO:root:Tue Jun  9 15:06:26 2020 - Beginning multiprocessing at Tue Jun  9 15:06:26 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 15:06:38 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 15:07:09 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 15:07:09 2020 - Multiprocessing completed in 42.83 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 15:13:11 2020 - Data from Google Sheet retrieved at Tue Jun  9 15:13:11 2020
+INFO:root:Tue Jun  9 15:13:11 2020 - Beginning multiprocessing at Tue Jun  9 15:13:11 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 15:13:24 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 15:13:45 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 15:13:45 2020 - Multiprocessing completed in 34.00 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 15:19:46 2020 - Data from Google Sheet retrieved at Tue Jun  9 15:19:46 2020
+INFO:root:Tue Jun  9 15:19:46 2020 - Beginning multiprocessing at Tue Jun  9 15:19:46 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 15:19:59 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 15:20:15 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 15:20:15 2020 - Multiprocessing completed in 28.99 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 15:26:17 2020 - Data from Google Sheet retrieved at Tue Jun  9 15:26:17 2020
+INFO:root:Tue Jun  9 15:26:17 2020 - Beginning multiprocessing at Tue Jun  9 15:26:17 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 15:26:31 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 15:27:00 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 15:27:00 2020 - Multiprocessing completed in 42.93 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 15:33:10 2020 - Data from Google Sheet retrieved at Tue Jun  9 15:33:10 2020
+INFO:root:Tue Jun  9 15:33:10 2020 - Beginning multiprocessing at Tue Jun  9 15:33:10 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 15:33:24 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 15:33:40 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 15:33:40 2020 - Multiprocessing completed in 30.60 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 15:39:42 2020 - Data from Google Sheet retrieved at Tue Jun  9 15:39:42 2020
+INFO:root:Tue Jun  9 15:39:42 2020 - Beginning multiprocessing at Tue Jun  9 15:39:42 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 15:39:52 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 15:40:07 2020 - Successful | No alert triggered
+INFO:root:Tue Jun  9 15:40:07 2020 - Multiprocessing completed in 25.28 seconds
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Tue Jun  9 15:46:09 2020 - Data from Google Sheet retrieved at Tue Jun  9 15:46:09 2020
+INFO:root:Tue Jun  9 15:46:09 2020 - Beginning multiprocessing at Tue Jun  9 15:46:09 2020, running 2 queries on 1 threads
+INFO:root:Tue Jun  9 15:46:21 2020 - Successful | No alert triggered
