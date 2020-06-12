@@ -59,6 +59,6 @@ Request count exceded the threshold:
 - Threshold bucket: {threshold_bucket}
 - Percentage increase: {round(int(requests)/int(threshold)*100-100, 2)}%
 - Note: {note}
-- Owner: {name}```
+- Name: {name}```
 <{gsheet_link}|Attack monitor sheet> | row: {row_idx+2}
 <{looker_url}|Looker Dashboard>'''
