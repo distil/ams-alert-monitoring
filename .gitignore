@@ -3,7 +3,6 @@
 /utilities/__pycache__
 /utilities/.ipynb_checkpoints
 /ams-tools-master
-*.ipynb
 pipfile.lock
 notes.txt
 main2.py
