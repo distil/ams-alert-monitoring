@@ -46,8 +46,13 @@ def compose_slack_alert(row_idx, row_dict, results):
     threshold = results.get('threshold')
     multiplier = row_dict.get('multiplier')
     threshold_bucket = results.get('threshold_bucket')
+<<<<<<< HEAD
     note = results.get('note')
     name = results.get('name')
+=======
+    note = row_dict.get('note')
+    owner = row_dict.get('owner')
+>>>>>>> 4fc93e3b33b8787d43d11cc684d6c830b1021965
     looker_url = generate_looker_url(row_dict)
     
     return f'''ALERT! :warning: 
