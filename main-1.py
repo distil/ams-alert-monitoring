@@ -90,23 +90,28 @@ def process_row(row_idx, row_dict, service):
 # ------------------
 if __name__ == '__main__':
     while True:
-        # Retrieve GSheet
-        service = gsheetAPI.retrieve_gservice()
-        gsheet_df = gsheetAPI.get_google_sheet(service=service)
-        print_to_terminal_and_log(f'Data from Google Sheet retrieved at {time.asctime(datetime.utcnow().timetuple())}', 'green')
+        try:
+            # Retrieve GSheet
+            service = gsheetAPI.retrieve_gservice()
+            gsheet_df = gsheetAPI.get_google_sheet(service=service)
+            print_to_terminal_and_log(f'Data from Google Sheet retrieved at {time.asctime(datetime.utcnow().timetuple())}', 'green')
 
-        # Prepare a list of dicts
-        row_list = [(row_idx, row_dict, service) for row_idx, row_dict in gsheet_df.iterrows() if row_dict.get('status') != 'pause']
+            # Prepare a list of dicts
+            row_list = [(row_idx, row_dict, service) for row_idx, row_dict in gsheet_df.iterrows() if row_dict.get('status') != 'pause']
 
-        # Multiprocessing to run the queries simultaneously, it has to stay in the main function
-        print_to_terminal_and_log(f'Beginning multiprocessing at {time.asctime(datetime.utcnow().timetuple())}, running {len(row_list)} queries on {mp.cpu_count()} threads')
-        time_start = time.time()
-        with mp.Pool(mp.cpu_count()) as pool:
-            results = [pool.apply(process_row, args=row) for row in row_list]
+            # Multiprocessing to run the queries simultaneously, it has to stay in the main function
+            print_to_terminal_and_log(f'Beginning multiprocessing at {time.asctime(datetime.utcnow().timetuple())}, running {len(row_list)} queries on {mp.cpu_count()} threads')
+            time_start = time.time()
+            with mp.Pool(mp.cpu_count()) as pool:
+                results = [pool.apply(process_row, args=row) for row in row_list]
 
-        # Print how long it took for a full cycle
-        exec_time = "{:.2f}".format(time.time() - time_start)
-        print_to_terminal_and_log(f'Multiprocessing completed in {exec_time} seconds', 'green')
+            # Print how long it took for a full cycle
+            exec_time = "{:.2f}".format(time.time() - time_start)
+            print_to_terminal_and_log(f'Multiprocessing completed in {exec_time} seconds', 'green')
 
-        # Wait 5 minutes before starting again
-        time.sleep(360)
+            # Wait 5 minutes before starting again
+            time.sleep(360)
+        except Exception as exc:
+            print_to_terminal_and_log(f'Error {exc}, waiting 5 minutes', 'red')
+            time.sleep(360)
+
