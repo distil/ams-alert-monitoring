@@ -10,10 +10,10 @@ def perc_used_ram():
     return psutil.virtual_memory().percent
 
 def perc_avail_memory():
-    return psutil.virtual_memory().available * 100 / psutil.virtual_memory().total
+    perc = psutil.virtual_memory().available * 100 / psutil.virtual_memory().total
+    return "{:.2f}".format(perc)
 
 def write_memory_log():
-    logging.basicConfig(filename='data/memory_log.log',level=logging.INFO)
     asctime = time.asctime(datetime.utcnow().timetuple())
     logging.info(f'{asctime} | perc used ram: {perc_used_ram()} | perc avail memory: {perc_avail_memory()}')
 
@@ -30,12 +30,12 @@ def print_to_terminal_and_log(text, color='white', level_name='info'):
     
     level = LEVELS.get(level_name, logging.NOTSET)
     logging.basicConfig(filename=LOG_FILENAME,level=level)
-
     asctime = time.asctime(datetime.utcnow().timetuple())
 
     message = Color('{auto'+ color + '}' + text + '{/auto'+ color + '}')
     print(asctime, '-', message)
     logging.info(asctime + ' - '+ text)
+    write_memory_log()
 
     
 
