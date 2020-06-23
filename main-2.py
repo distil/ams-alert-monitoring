@@ -110,7 +110,6 @@ if __name__ == '__main__':
             # Print how long it took for a full cycle
             exec_time = "{:.2f}".format(time.time() - time_start)
             print_to_terminal_and_log(f'Processing completed in {exec_time} seconds', 'green')
-            write_memory_log()
 
             # Wait 5 minutes before starting again
             for _ in range(5):

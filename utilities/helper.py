@@ -6,16 +6,16 @@ import logging
 import psutil
 
 # Percentage of used RAM and avail memory
-def perc_used_ram():
-    return psutil.virtual_memory().percent
 
-def perc_avail_memory():
-    perc = psutil.virtual_memory().available * 100 / psutil.virtual_memory().total
-    return "{:.2f}".format(perc)
+def cpu_times():
+    return psutil.cpu_times()._asdict()
+
+def virtual_memory():
+    return psutil.virtual_memory()._asdict()
 
 def write_memory_log():
     asctime = time.asctime(datetime.utcnow().timetuple())
-    logging.info(f'{asctime} | perc used ram: {perc_used_ram()} | perc avail memory: {perc_avail_memory()}')
+    logging.info(f'{asctime} | cpu times: {cpu_times()} | virtual memory: {virtual_memory()}')
 
 def print_to_terminal_and_log(text, color='white', level_name='info'):
     ''''color' set the color when displaying to terminal
@@ -33,8 +33,8 @@ def print_to_terminal_and_log(text, color='white', level_name='info'):
     asctime = time.asctime(datetime.utcnow().timetuple())
 
     message = Color('{auto'+ color + '}' + text + '{/auto'+ color + '}')
-    print(asctime, '-', message)
-    logging.info(asctime + ' - ' + text)    
+    print(asctime, '|', message)
+    logging.info(asctime + ' | ' + text)    
 
 # Helper function to write logs and console at the same time
 def write_log(line):
