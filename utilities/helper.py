@@ -3,12 +3,25 @@ from datetime import datetime
 from utilities.google_client import gsheet_link
 from colorclass import Color
 import logging
+import psutil
+
+# Percentage of used RAM and avail memory
+def perc_used_ram():
+    return psutil.virtual_memory().percent
+
+def perc_avail_memory():
+    return psutil.virtual_memory().available * 100 / psutil.virtual_memory().total
+
+def write_memory_log():
+    logging.basicConfig(filename='data/memory_log.log',level=logging.INFO)
+    asctime = time.asctime(datetime.utcnow().timetuple())
+    logging.info(f'{asctime} | perc used ram: {perc_used_ram()} | perc avail memory: {perc_avail_memory()}')
 
 def print_to_terminal_and_log(text, color='white', level_name='info'):
     ''''color' set the color when displaying to terminal
        'level_name' the log level'''
+    # take the chance to log the memory usage as well
     LOG_FILENAME = 'data/logs.log'
-
     LEVELS = {'debug': logging.DEBUG,
              'info': logging.INFO,
              'warning': logging.WARNING,
@@ -22,8 +35,9 @@ def print_to_terminal_and_log(text, color='white', level_name='info'):
 
     message = Color('{auto'+ color + '}' + text + '{/auto'+ color + '}')
     print(asctime, '-', message)
-
     logging.info(asctime + ' - '+ text)
+
+    
 
 # Helper function to write logs and console at the same time
 def write_log(line):

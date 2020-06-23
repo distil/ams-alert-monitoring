@@ -1,7 +1,7 @@
 from utilities.google_client import google_sheet_API
 from utilities.athena_client import athena_API
 from utilities.slack_client import slack_API
-from utilities.helper import print_to_terminal_and_log, generate_looker_url, compose_slack_alert
+from utilities.helper import print_to_terminal_and_log, write_memory_log, generate_looker_url, compose_slack_alert
 import time
 from datetime import datetime
 
@@ -103,14 +103,16 @@ if __name__ == '__main__':
             time_start = time.time()
 
             for row_idx, row_dict, service in row_list:
-                result = process_row(row_idx, row_dict, service)
+                process_row(row_idx, row_dict, service)
 
             # Print how long it took for a full cycle
             exec_time = "{:.2f}".format(time.time() - time_start)
             print_to_terminal_and_log(f'Processing completed in {exec_time} seconds', 'green')
 
             # Wait 5 minutes before starting again
-            time.sleep(10)
+            for _ in range(30):
+                write_memory_log()
+                time.sleep(10)
         except Exception as exc:
             print_to_terminal_and_log(f'Error {exc}, waiting 5 minutes', 'red')
             time.sleep(360)

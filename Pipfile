@@ -17,6 +17,7 @@ pyathena = "*"
 slackclient = "*"
 nest-asyncio = "*" 
 colorclass = "*"
+psutil = "*"
 
 [requires]
 python_version = "3.7"
