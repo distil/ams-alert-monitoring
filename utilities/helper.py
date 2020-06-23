@@ -34,10 +34,7 @@ def print_to_terminal_and_log(text, color='white', level_name='info'):
 
     message = Color('{auto'+ color + '}' + text + '{/auto'+ color + '}')
     print(asctime, '-', message)
-    logging.info(asctime + ' - '+ text)
-    write_memory_log()
-
-    
+    logging.info(asctime + ' - ' + text)    
 
 # Helper function to write logs and console at the same time
 def write_log(line):
