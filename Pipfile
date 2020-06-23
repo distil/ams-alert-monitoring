@@ -5,7 +5,6 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
-mypy = "*"
 
 [packages]
 jupyterlab = "*"
@@ -15,7 +14,6 @@ google-auth-httplib2 = "*"
 google-auth-oauthlib = "*"
 pyathena = "*"
 slackclient = "*"
-nest-asyncio = "*" 
 colorclass = "*"
 psutil = "*"
 
