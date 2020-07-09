@@ -1,12 +1,11 @@
 import time
-from datetime import datetime
+from datetime import datetime, date
 from utilities.google_client import gsheet_link
 from colorclass import Color
 import logging
 import psutil
 
 # Percentage of used RAM and avail memory
-
 def cpu_times():
     return psutil.cpu_times()._asdict()
 
@@ -20,8 +19,11 @@ def write_memory_log():
 def print_to_terminal_and_log(text, color='white', level_name='info'):
     ''''color' set the color when displaying to terminal
        'level_name' the log level'''
+
     # take the chance to log the memory usage as well
-    LOG_FILENAME = 'data/logs.log'
+    d1 = date.today().strftime("%d-%m-%Y")
+    LOG_FILENAME = f'data/{d1}-logs.log'
+
     LEVELS = {'debug': logging.DEBUG,
              'info': logging.INFO,
              'warning': logging.WARNING,
@@ -33,14 +35,15 @@ def print_to_terminal_and_log(text, color='white', level_name='info'):
     asctime = time.asctime(datetime.utcnow().timetuple())
 
     message = Color('{auto'+ color + '}' + text + '{/auto'+ color + '}')
-    print(asctime, '|', message)
-    logging.info(asctime + ' | ' + text)    
+    print(asctime, '|', message, '| saved in:', LOG_FILENAME)
+    logging.info(asctime + ' | ' + text)
+    del d1
 
-# Helper function to write logs and console at the same time
-def write_log(line):
-    print(line)
-    with open("log/log.txt", "a+") as logs:
-        logs.write(f"{line}\r\n")
+# # Helper function to write logs and console at the same time
+# def write_log(line):
+#     print(line)
+#     with open("log/log.txt", "a+") as logs:
+#         logs.write(f"{line}\r\n")
         
 # Generate the looker url string
 def generate_looker_url(row_dict):
@@ -57,8 +60,8 @@ def compose_slack_alert(row_idx, row_dict, results):
     threshold = results.get('threshold')
     multiplier = row_dict.get('multiplier')
     threshold_bucket = results.get('threshold_bucket')
-    note = results.get('note')
-    name = results.get('name')
+    owner = row_dict.get('owner')
+    name = row_dict.get('name')
     looker_url = generate_looker_url(row_dict)
     
     return f'''ALERT! :warning: 
@@ -69,7 +72,7 @@ Request count exceded the threshold:
 - Threshold w/multiplier: {int(int(threshold)*float(multiplier))}
 - Threshold bucket: {threshold_bucket}
 - Percentage increase: {round(int(requests)/int(threshold)*100-100, 2)}%
-- Note: {note}
+- Owner: {owner}
 - Name: {name}```
 <{gsheet_link}|Attack monitor sheet> | row: {row_idx+2}
 <{looker_url}|Looker Dashboard>'''

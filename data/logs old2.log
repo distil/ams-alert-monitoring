@@ -1,0 +1,720 @@
+INFO:root:Thu Jul  2 15:54:05 2020 | Data from Google Sheet retrieved at Thu Jul  2 15:54:05 2020
+INFO:root:Thu Jul  2 15:54:05 2020 | cpu times: OrderedDict([('user', 23.23), ('nice', 0.0), ('system', 8.46), ('idle', 568.17), ('iowait', 2.59), ('irq', 0.0), ('softirq', 0.16), ('steal', 6.39), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 234549248), ('percent', 77.1), ('used', 643366912), ('free', 84369408), ('active', 705368064), ('inactive', 136278016), ('buffers', 45637632), ('cached', 252985344), ('shared', 770048), ('slab', 65261568)])
+INFO:root:Thu Jul  2 15:54:05 2020 | Beginning processing at Thu Jul  2 15:54:05 2020, running 1 queries
+INFO:root:Thu Jul  2 15:54:05 2020 | cpu times: OrderedDict([('user', 23.23), ('nice', 0.0), ('system', 8.46), ('idle', 568.17), ('iowait', 2.6), ('irq', 0.0), ('softirq', 0.16), ('steal', 6.39), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 234844160), ('percent', 77.1), ('used', 643100672), ('free', 84369408), ('active', 705441792), ('inactive', 136572928), ('buffers', 45637632), ('cached', 253251584), ('shared', 770048), ('slab', 65261568)])
+INFO:root:Thu Jul  2 15:54:17 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 15:54:17 2020 | Processing completed in 11.18 seconds
+INFO:root:Thu Jul  2 15:54:17 2020 | cpu times: OrderedDict([('user', 23.45), ('nice', 0.0), ('system', 8.55), ('idle', 578.73), ('iowait', 2.92), ('irq', 0.0), ('softirq', 0.16), ('steal', 6.4), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 236634112), ('percent', 76.9), ('used', 641134592), ('free', 80379904), ('active', 708780032), ('inactive', 136044544), ('buffers', 48164864), ('cached', 256679936), ('shared', 770048), ('slab', 65748992)])
+INFO:root:Thu Jul  2 15:55:17 2020 | cpu times: OrderedDict([('user', 23.52), ('nice', 0.0), ('system', 8.59), ('idle', 638.59), ('iowait', 2.93), ('irq', 0.0), ('softirq', 0.16), ('steal', 6.41), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 237273088), ('percent', 76.9), ('used', 640499712), ('free', 80654336), ('active', 708866048), ('inactive', 136003584), ('buffers', 48181248), ('cached', 257024000), ('shared', 770048), ('slab', 65748992)])
+INFO:root:Thu Jul  2 15:56:01 2020 | Data from Google Sheet retrieved at Thu Jul  2 15:56:01 2020
+INFO:root:Thu Jul  2 15:56:01 2020 | cpu times: OrderedDict([('user', 26.03), ('nice', 0.0), ('system', 8.95), ('idle', 679.55), ('iowait', 2.99), ('irq', 0.0), ('softirq', 0.16), ('steal', 6.43), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 224043008), ('percent', 78.2), ('used', 654024704), ('free', 80859136), ('active', 729931776), ('inactive', 115290112), ('buffers', 46510080), ('cached', 244965376), ('shared', 770048), ('slab', 65069056)])
+INFO:root:Thu Jul  2 15:56:01 2020 | Beginning processing at Thu Jul  2 15:56:01 2020, running 1 queries
+INFO:root:Thu Jul  2 15:56:01 2020 | cpu times: OrderedDict([('user', 26.04), ('nice', 0.0), ('system', 8.95), ('idle', 679.55), ('iowait', 2.99), ('irq', 0.0), ('softirq', 0.16), ('steal', 6.43), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 224043008), ('percent', 78.2), ('used', 654024704), ('free', 80859136), ('active', 730042368), ('inactive', 115290112), ('buffers', 46510080), ('cached', 244965376), ('shared', 770048), ('slab', 65069056)])
+INFO:root:Thu Jul  2 15:56:15 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 15:56:15 2020 | Processing completed in 14.53 seconds
+INFO:root:Thu Jul  2 15:56:15 2020 | cpu times: OrderedDict([('user', 26.31), ('nice', 0.0), ('system', 9.01), ('idle', 693.71), ('iowait', 2.99), ('irq', 0.0), ('softirq', 0.16), ('steal', 6.43), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 220270592), ('percent', 78.5), ('used', 657797120), ('free', 77086720), ('active', 735567872), ('inactive', 112873472), ('buffers', 46510080), ('cached', 244965376), ('shared', 770048), ('slab', 65200128)])
+INFO:root:Thu Jul  2 15:57:15 2020 | cpu times: OrderedDict([('user', 26.36), ('nice', 0.0), ('system', 9.04), ('idle', 753.58), ('iowait', 3.0), ('irq', 0.0), ('softirq', 0.16), ('steal', 6.44), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 221216768), ('percent', 78.4), ('used', 656842752), ('free', 77971456), ('active', 734683136), ('inactive', 112877568), ('buffers', 46526464), ('cached', 245018624), ('shared', 770048), ('slab', 65200128)])
+INFO:root:Thu Jul  2 15:58:15 2020 | cpu times: OrderedDict([('user', 26.45), ('nice', 0.0), ('system', 9.08), ('idle', 813.41), ('iowait', 3.0), ('irq', 0.0), ('softirq', 0.16), ('steal', 6.46), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 220356608), ('percent', 78.5), ('used', 657711104), ('free', 77094912), ('active', 735694848), ('inactive', 112873472), ('buffers', 46534656), ('cached', 245018624), ('shared', 770048), ('slab', 65200128)])
+INFO:root:Thu Jul  2 15:59:16 2020 | cpu times: OrderedDict([('user', 26.71), ('nice', 0.0), ('system', 9.22), ('idle', 872.92), ('iowait', 3.02), ('irq', 0.0), ('softirq', 0.17), ('steal', 6.48), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 227770368), ('percent', 77.8), ('used', 650342400), ('free', 95924224), ('active', 721375232), ('inactive', 108449792), ('buffers', 44130304), ('cached', 235962368), ('shared', 770048), ('slab', 65118208)])
+INFO:root:Thu Jul  2 16:00:16 2020 | cpu times: OrderedDict([('user', 26.77), ('nice', 0.0), ('system', 9.24), ('idle', 932.77), ('iowait', 3.03), ('irq', 0.0), ('softirq', 0.17), ('steal', 6.55), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 227004416), ('percent', 77.9), ('used', 651108352), ('free', 95150080), ('active', 722370560), ('inactive', 108302336), ('buffers', 44138496), ('cached', 235962368), ('shared', 770048), ('slab', 65118208)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 16:01:17 2020 | Data from Google Sheet retrieved at Thu Jul  2 16:01:17 2020
+INFO:root:Thu Jul  2 16:01:17 2020 | cpu times: OrderedDict([('user', 27.31), ('nice', 0.0), ('system', 9.36), ('idle', 993.41), ('iowait', 3.04), ('irq', 0.0), ('softirq', 0.17), ('steal', 6.56), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 182435840), ('percent', 82.2), ('used', 696193024), ('free', 91508736), ('active', 742297600), ('inactive', 92991488), ('buffers', 34643968), ('cached', 204013568), ('shared', 770048), ('slab', 64126976)])
+INFO:root:Thu Jul  2 16:01:17 2020 | Beginning processing at Thu Jul  2 16:01:17 2020, running 1 queries
+INFO:root:Thu Jul  2 16:01:17 2020 | cpu times: OrderedDict([('user', 27.31), ('nice', 0.0), ('system', 9.36), ('idle', 993.41), ('iowait', 3.04), ('irq', 0.0), ('softirq', 0.17), ('steal', 6.56), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 182435840), ('percent', 82.2), ('used', 696193024), ('free', 91508736), ('active', 742371328), ('inactive', 92991488), ('buffers', 34643968), ('cached', 204013568), ('shared', 770048), ('slab', 64126976)])
+INFO:root:Thu Jul  2 16:01:32 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 16:01:32 2020 | Processing completed in 15.48 seconds
+INFO:root:Thu Jul  2 16:01:32 2020 | cpu times: OrderedDict([('user', 27.48), ('nice', 0.0), ('system', 9.39), ('idle', 1008.63), ('iowait', 3.06), ('irq', 0.0), ('softirq', 0.18), ('steal', 6.56), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 181268480), ('percent', 82.3), ('used', 697360384), ('free', 89985024), ('active', 742993920), ('inactive', 92856320), ('buffers', 34992128), ('cached', 204021760), ('shared', 770048), ('slab', 64102400)])
+INFO:root:Thu Jul  2 16:02:32 2020 | cpu times: OrderedDict([('user', 27.71), ('nice', 0.0), ('system', 9.48), ('idle', 1068.21), ('iowait', 3.09), ('irq', 0.0), ('softirq', 0.18), ('steal', 6.57), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 187006976), ('percent', 81.8), ('used', 691621888), ('free', 95064064), ('active', 739225600), ('inactive', 91787264), ('buffers', 35278848), ('cached', 204394496), ('shared', 770048), ('slab', 64106496)])
+INFO:root:Thu Jul  2 16:03:33 2020 | cpu times: OrderedDict([('user', 27.74), ('nice', 0.0), ('system', 9.5), ('idle', 1128.05), ('iowait', 3.1), ('irq', 0.0), ('softirq', 0.18), ('steal', 6.58), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 187842560), ('percent', 81.7), ('used', 690778112), ('free', 95137792), ('active', 739926016), ('inactive', 91836416), ('buffers', 35295232), ('cached', 205148160), ('shared', 770048), ('slab', 64114688)])
+INFO:root:Thu Jul  2 16:04:33 2020 | cpu times: OrderedDict([('user', 27.78), ('nice', 0.0), ('system', 9.53), ('idle', 1187.89), ('iowait', 3.11), ('irq', 0.0), ('softirq', 0.18), ('steal', 6.58), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 187940864), ('percent', 81.7), ('used', 690688000), ('free', 95080448), ('active', 739676160), ('inactive', 91963392), ('buffers', 35303424), ('cached', 205287424), ('shared', 770048), ('slab', 64106496)])
+INFO:root:Thu Jul  2 16:05:33 2020 | cpu times: OrderedDict([('user', 28.0), ('nice', 0.0), ('system', 9.63), ('idle', 1247.47), ('iowait', 3.12), ('irq', 0.0), ('softirq', 0.18), ('steal', 6.61), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 184487936), ('percent', 82.0), ('used', 694136832), ('free', 91275264), ('active', 743362560), ('inactive', 92049408), ('buffers', 35344384), ('cached', 205602816), ('shared', 770048), ('slab', 64106496)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 16:06:34 2020 | Data from Google Sheet retrieved at Thu Jul  2 16:06:34 2020
+INFO:root:Thu Jul  2 16:06:34 2020 | cpu times: OrderedDict([('user', 28.36), ('nice', 0.0), ('system', 9.69), ('idle', 1308.13), ('iowait', 3.13), ('irq', 0.0), ('softirq', 0.18), ('steal', 6.61), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 152723456), ('percent', 85.1), ('used', 726372352), ('free', 108859392), ('active', 740003840), ('inactive', 78442496), ('buffers', 19902464), ('cached', 171225088), ('shared', 770048), ('slab', 63160320)])
+INFO:root:Thu Jul  2 16:06:34 2020 | Beginning processing at Thu Jul  2 16:06:34 2020, running 1 queries
+INFO:root:Thu Jul  2 16:06:34 2020 | cpu times: OrderedDict([('user', 28.37), ('nice', 0.0), ('system', 9.69), ('idle', 1308.13), ('iowait', 3.13), ('irq', 0.0), ('softirq', 0.18), ('steal', 6.61), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 152723456), ('percent', 85.1), ('used', 726372352), ('free', 108859392), ('active', 740114432), ('inactive', 78442496), ('buffers', 19902464), ('cached', 171225088), ('shared', 770048), ('slab', 63160320)])
+INFO:root:Thu Jul  2 16:07:07 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 16:07:07 2020 | Processing completed in 33.10 seconds
+INFO:root:Thu Jul  2 16:07:07 2020 | cpu times: OrderedDict([('user', 28.6), ('nice', 0.0), ('system', 9.71), ('idle', 1340.94), ('iowait', 3.14), ('irq', 0.0), ('softirq', 0.19), ('steal', 6.61), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 154955776), ('percent', 84.9), ('used', 724140032), ('free', 110899200), ('active', 739729408), ('inactive', 77205504), ('buffers', 19910656), ('cached', 171409408), ('shared', 770048), ('slab', 63184896)])
+INFO:root:Thu Jul  2 16:08:07 2020 | cpu times: OrderedDict([('user', 28.61), ('nice', 0.0), ('system', 9.72), ('idle', 1400.89), ('iowait', 3.14), ('irq', 0.0), ('softirq', 0.19), ('steal', 6.62), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 154312704), ('percent', 85.0), ('used', 724783104), ('free', 110125056), ('active', 740098048), ('inactive', 77324288), ('buffers', 19918848), ('cached', 171532288), ('shared', 770048), ('slab', 63184896)])
+INFO:root:Thu Jul  2 16:09:07 2020 | cpu times: OrderedDict([('user', 28.62), ('nice', 0.0), ('system', 9.73), ('idle', 1460.77), ('iowait', 3.15), ('irq', 0.0), ('softirq', 0.19), ('steal', 6.62), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 154140672), ('percent', 85.0), ('used', 724946944), ('free', 109867008), ('active', 740315136), ('inactive', 77402112), ('buffers', 19935232), ('cached', 171610112), ('shared', 770048), ('slab', 63184896)])
+INFO:root:Thu Jul  2 16:10:07 2020 | cpu times: OrderedDict([('user', 28.63), ('nice', 0.0), ('system', 9.74), ('idle', 1520.72), ('iowait', 3.16), ('irq', 0.0), ('softirq', 0.19), ('steal', 6.62), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 154193920), ('percent', 85.0), ('used', 724893696), ('free', 109867008), ('active', 740102144), ('inactive', 77389824), ('buffers', 19951616), ('cached', 171646976), ('shared', 770048), ('slab', 63184896)])
+INFO:root:Thu Jul  2 16:11:07 2020 | cpu times: OrderedDict([('user', 28.64), ('nice', 0.0), ('system', 9.75), ('idle', 1580.62), ('iowait', 3.16), ('irq', 0.0), ('softirq', 0.19), ('steal', 6.63), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 154304512), ('percent', 85.0), ('used', 724791296), ('free', 109867008), ('active', 740249600), ('inactive', 77484032), ('buffers', 19959808), ('cached', 171741184), ('shared', 770048), ('slab', 63184896)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 16:12:08 2020 | Data from Google Sheet retrieved at Thu Jul  2 16:12:08 2020
+INFO:root:Thu Jul  2 16:12:08 2020 | cpu times: OrderedDict([('user', 29.03), ('nice', 0.0), ('system', 9.78), ('idle', 1641.4), ('iowait', 3.17), ('irq', 0.0), ('softirq', 0.19), ('steal', 6.63), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 135958528), ('percent', 86.8), ('used', 743137280), ('free', 91504640), ('active', 758861824), ('inactive', 77479936), ('buffers', 19976192), ('cached', 171741184), ('shared', 770048), ('slab', 63184896)])
+INFO:root:Thu Jul  2 16:12:08 2020 | Beginning processing at Thu Jul  2 16:12:08 2020, running 1 queries
+INFO:root:Thu Jul  2 16:12:08 2020 | cpu times: OrderedDict([('user', 29.03), ('nice', 0.0), ('system', 9.78), ('idle', 1641.4), ('iowait', 3.17), ('irq', 0.0), ('softirq', 0.19), ('steal', 6.63), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 135958528), ('percent', 86.8), ('used', 743137280), ('free', 91504640), ('active', 758898688), ('inactive', 77479936), ('buffers', 19976192), ('cached', 171741184), ('shared', 770048), ('slab', 63184896)])
+INFO:root:Thu Jul  2 16:12:19 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 16:12:19 2020 | Processing completed in 11.11 seconds
+INFO:root:Thu Jul  2 16:12:19 2020 | cpu times: OrderedDict([('user', 29.19), ('nice', 0.0), ('system', 9.79), ('idle', 1652.33), ('iowait', 3.17), ('irq', 0.0), ('softirq', 0.19), ('steal', 6.63), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 133910528), ('percent', 87.0), ('used', 745185280), ('free', 89456640), ('active', 760299520), ('inactive', 77479936), ('buffers', 19976192), ('cached', 171741184), ('shared', 770048), ('slab', 63168512)])
+INFO:root:Thu Jul  2 16:13:19 2020 | cpu times: OrderedDict([('user', 29.2), ('nice', 0.0), ('system', 9.81), ('idle', 1712.22), ('iowait', 3.18), ('irq', 0.0), ('softirq', 0.19), ('steal', 6.63), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 134692864), ('percent', 86.9), ('used', 744394752), ('free', 90230784), ('active', 759484416), ('inactive', 77479936), ('buffers', 19992576), ('cached', 171741184), ('shared', 770048), ('slab', 63168512)])
+INFO:root:Thu Jul  2 16:14:20 2020 | cpu times: OrderedDict([('user', 29.22), ('nice', 0.0), ('system', 9.83), ('idle', 1772.16), ('iowait', 3.19), ('irq', 0.0), ('softirq', 0.2), ('steal', 6.64), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 135524352), ('percent', 86.8), ('used', 743571456), ('free', 90456064), ('active', 758837248), ('inactive', 77873152), ('buffers', 20086784), ('cached', 172244992), ('shared', 770048), ('slab', 63201280)])
+INFO:root:Thu Jul  2 16:15:20 2020 | cpu times: OrderedDict([('user', 29.22), ('nice', 0.0), ('system', 9.83), ('idle', 1832.1), ('iowait', 3.19), ('irq', 0.0), ('softirq', 0.2), ('steal', 6.64), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 135802880), ('percent', 86.8), ('used', 743292928), ('free', 90714112), ('active', 758722560), ('inactive', 77873152), ('buffers', 20103168), ('cached', 172249088), ('shared', 770048), ('slab', 63201280)])
+INFO:root:Thu Jul  2 16:16:20 2020 | cpu times: OrderedDict([('user', 29.24), ('nice', 0.0), ('system', 9.85), ('idle', 1892.01), ('iowait', 3.2), ('irq', 0.0), ('softirq', 0.2), ('steal', 6.64), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 135553024), ('percent', 86.8), ('used', 743542784), ('free', 90456064), ('active', 758956032), ('inactive', 77869056), ('buffers', 20111360), ('cached', 172249088), ('shared', 770048), ('slab', 63201280)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 16:17:21 2020 | Data from Google Sheet retrieved at Thu Jul  2 16:17:21 2020
+INFO:root:Thu Jul  2 16:17:21 2020 | cpu times: OrderedDict([('user', 29.61), ('nice', 0.0), ('system', 9.9), ('idle', 1952.64), ('iowait', 3.21), ('irq', 0.0), ('softirq', 0.2), ('steal', 6.65), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 111403008), ('percent', 89.1), ('used', 767692800), ('free', 66260992), ('active', 782983168), ('inactive', 77877248), ('buffers', 20131840), ('cached', 172273664), ('shared', 770048), ('slab', 63307776)])
+INFO:root:Thu Jul  2 16:17:21 2020 | Beginning processing at Thu Jul  2 16:17:21 2020, running 1 queries
+INFO:root:Thu Jul  2 16:17:21 2020 | cpu times: OrderedDict([('user', 29.61), ('nice', 0.0), ('system', 9.9), ('idle', 1952.64), ('iowait', 3.21), ('irq', 0.0), ('softirq', 0.2), ('steal', 6.65), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 111403008), ('percent', 89.1), ('used', 767692800), ('free', 66260992), ('active', 783020032), ('inactive', 77877248), ('buffers', 20131840), ('cached', 172273664), ('shared', 770048), ('slab', 63307776)])
+INFO:root:Thu Jul  2 16:17:35 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 16:17:35 2020 | Processing completed in 13.76 seconds
+INFO:root:Thu Jul  2 16:17:35 2020 | cpu times: OrderedDict([('user', 29.76), ('nice', 0.0), ('system', 9.93), ('idle', 1966.16), ('iowait', 3.22), ('irq', 0.0), ('softirq', 0.2), ('steal', 6.65), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 109391872), ('percent', 89.3), ('used', 770744320), ('free', 102875136), ('active', 765435904), ('inactive', 60428288), ('buffers', 8134656), ('cached', 144605184), ('shared', 770048), ('slab', 61235200)])
+INFO:root:Thu Jul  2 16:18:35 2020 | cpu times: OrderedDict([('user', 29.77), ('nice', 0.0), ('system', 9.94), ('idle', 2026.05), ('iowait', 3.24), ('irq', 0.0), ('softirq', 0.2), ('steal', 6.65), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 109232128), ('percent', 89.4), ('used', 770904064), ('free', 102617088), ('active', 766021632), ('inactive', 60108800), ('buffers', 8151040), ('cached', 144687104), ('shared', 770048), ('slab', 61235200)])
+INFO:root:Thu Jul  2 16:19:35 2020 | cpu times: OrderedDict([('user', 29.79), ('nice', 0.0), ('system', 9.95), ('idle', 2085.96), ('iowait', 3.25), ('irq', 0.0), ('softirq', 0.2), ('steal', 6.66), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 110456832), ('percent', 89.2), ('used', 769679360), ('free', 102776832), ('active', 766369792), ('inactive', 60170240), ('buffers', 8617984), ('cached', 145285120), ('shared', 770048), ('slab', 61235200)])
+INFO:root:Thu Jul  2 16:20:35 2020 | cpu times: OrderedDict([('user', 30.37), ('nice', 0.0), ('system', 10.14), ('idle', 2144.59), ('iowait', 3.74), ('irq', 0.0), ('softirq', 0.2), ('steal', 6.67), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 112635904), ('percent', 89.0), ('used', 768454656), ('free', 112443392), ('active', 767090688), ('inactive', 50708480), ('buffers', 10063872), ('cached', 135397376), ('shared', 778240), ('slab', 59498496)])
+INFO:root:Thu Jul  2 16:21:35 2020 | cpu times: OrderedDict([('user', 30.37), ('nice', 0.0), ('system', 10.14), ('idle', 2204.48), ('iowait', 3.75), ('irq', 0.0), ('softirq', 0.2), ('steal', 6.68), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 112615424), ('percent', 89.0), ('used', 768475136), ('free', 112185344), ('active', 767492096), ('inactive', 50688000), ('buffers', 10084352), ('cached', 135614464), ('shared', 778240), ('slab', 59498496)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 16:22:36 2020 | Data from Google Sheet retrieved at Thu Jul  2 16:22:36 2020
+INFO:root:Thu Jul  2 16:22:36 2020 | cpu times: OrderedDict([('user', 30.79), ('nice', 0.0), ('system', 10.18), ('idle', 2265.25), ('iowait', 3.75), ('irq', 0.0), ('softirq', 0.2), ('steal', 6.68), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 85045248), ('percent', 91.7), ('used', 796045312), ('free', 84549632), ('active', 795602944), ('inactive', 50692096), ('buffers', 10092544), ('cached', 135671808), ('shared', 778240), ('slab', 59490304)])
+INFO:root:Thu Jul  2 16:22:36 2020 | Beginning processing at Thu Jul  2 16:22:36 2020, running 1 queries
+INFO:root:Thu Jul  2 16:22:36 2020 | cpu times: OrderedDict([('user', 30.79), ('nice', 0.0), ('system', 10.18), ('idle', 2265.25), ('iowait', 3.75), ('irq', 0.0), ('softirq', 0.2), ('steal', 6.68), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 85045248), ('percent', 91.7), ('used', 796045312), ('free', 84549632), ('active', 795639808), ('inactive', 50692096), ('buffers', 10092544), ('cached', 135671808), ('shared', 778240), ('slab', 59490304)])
+INFO:root:Thu Jul  2 16:22:47 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 16:22:47 2020 | Processing completed in 11.14 seconds
+INFO:root:Thu Jul  2 16:22:47 2020 | cpu times: OrderedDict([('user', 30.93), ('nice', 0.0), ('system', 10.2), ('idle', 2276.11), ('iowait', 3.85), ('irq', 0.0), ('softirq', 0.2), ('steal', 6.68), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 83382272), ('percent', 91.9), ('used', 797691904), ('free', 81285120), ('active', 797622272), ('inactive', 51032064), ('buffers', 11325440), ('cached', 136056832), ('shared', 778240), ('slab', 59523072)])
+INFO:root:Thu Jul  2 16:23:47 2020 | cpu times: OrderedDict([('user', 30.94), ('nice', 0.0), ('system', 10.22), ('idle', 2336.04), ('iowait', 3.87), ('irq', 0.0), ('softirq', 0.2), ('steal', 6.69), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 82976768), ('percent', 91.9), ('used', 798089216), ('free', 80470016), ('active', 798240768), ('inactive', 50982912), ('buffers', 11345920), ('cached', 136454144), ('shared', 778240), ('slab', 59568128)])
+INFO:root:Thu Jul  2 16:24:47 2020 | cpu times: OrderedDict([('user', 30.95), ('nice', 0.0), ('system', 10.22), ('idle', 2395.98), ('iowait', 3.87), ('irq', 0.0), ('softirq', 0.21), ('steal', 6.69), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 83517440), ('percent', 91.9), ('used', 797556736), ('free', 80986112), ('active', 797835264), ('inactive', 50982912), ('buffers', 11354112), ('cached', 136462336), ('shared', 778240), ('slab', 59568128)])
+INFO:root:Thu Jul  2 16:25:47 2020 | cpu times: OrderedDict([('user', 30.96), ('nice', 0.0), ('system', 10.22), ('idle', 2455.92), ('iowait', 3.88), ('irq', 0.0), ('softirq', 0.21), ('steal', 6.69), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 84434944), ('percent', 91.8), ('used', 796639232), ('free', 81760256), ('active', 797114368), ('inactive', 50982912), ('buffers', 11362304), ('cached', 136597504), ('shared', 778240), ('slab', 59568128)])
+INFO:root:Thu Jul  2 16:26:47 2020 | cpu times: OrderedDict([('user', 30.98), ('nice', 0.0), ('system', 10.23), ('idle', 2515.86), ('iowait', 3.89), ('irq', 0.0), ('softirq', 0.21), ('steal', 6.7), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 85098496), ('percent', 91.7), ('used', 795975680), ('free', 82276352), ('active', 796516352), ('inactive', 51113984), ('buffers', 11378688), ('cached', 136728576), ('shared', 778240), ('slab', 59568128)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 16:27:49 2020 | Data from Google Sheet retrieved at Thu Jul  2 16:27:49 2020
+INFO:root:Thu Jul  2 16:27:49 2020 | cpu times: OrderedDict([('user', 31.41), ('nice', 0.0), ('system', 10.26), ('idle', 2576.52), ('iowait', 3.9), ('irq', 0.0), ('softirq', 0.21), ('steal', 6.71), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 81817600), ('percent', 92.0), ('used', 820461568), ('free', 104443904), ('active', 790380544), ('inactive', 37208064), ('buffers', 10448896), ('cached', 91004928), ('shared', 778240), ('slab', 57303040)])
+INFO:root:Thu Jul  2 16:27:49 2020 | Beginning processing at Thu Jul  2 16:27:49 2020, running 1 queries
+INFO:root:Thu Jul  2 16:27:49 2020 | cpu times: OrderedDict([('user', 31.41), ('nice', 0.0), ('system', 10.26), ('idle', 2576.52), ('iowait', 3.9), ('irq', 0.0), ('softirq', 0.21), ('steal', 6.71), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 82849792), ('percent', 91.9), ('used', 819429376), ('free', 105476096), ('active', 789422080), ('inactive', 37208064), ('buffers', 10448896), ('cached', 91004928), ('shared', 778240), ('slab', 57303040)])
+INFO:root:Thu Jul  2 16:28:00 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 16:28:00 2020 | Processing completed in 11.38 seconds
+INFO:root:Thu Jul  2 16:28:00 2020 | cpu times: OrderedDict([('user', 31.55), ('nice', 0.0), ('system', 10.28), ('idle', 2587.71), ('iowait', 3.91), ('irq', 0.0), ('softirq', 0.21), ('steal', 6.71), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 81793024), ('percent', 92.0), ('used', 820457472), ('free', 104370176), ('active', 791805952), ('inactive', 35868672), ('buffers', 10530816), ('cached', 91000832), ('shared', 778240), ('slab', 57319424)])
+INFO:root:Thu Jul  2 16:29:00 2020 | cpu times: OrderedDict([('user', 31.57), ('nice', 0.0), ('system', 10.29), ('idle', 2647.59), ('iowait', 3.96), ('irq', 0.0), ('softirq', 0.21), ('steal', 6.71), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 80572416), ('percent', 92.1), ('used', 820822016), ('free', 102297600), ('active', 794451968), ('inactive', 35069952), ('buffers', 10723328), ('cached', 92516352), ('shared', 778240), ('slab', 57335808)])
+INFO:root:Thu Jul  2 16:30:00 2020 | cpu times: OrderedDict([('user', 31.57), ('nice', 0.0), ('system', 10.3), ('idle', 2707.47), ('iowait', 3.96), ('irq', 0.0), ('softirq', 0.21), ('steal', 6.72), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 80478208), ('percent', 92.2), ('used', 820752384), ('free', 102039552), ('active', 794894336), ('inactive', 35115008), ('buffers', 10739712), ('cached', 92827648), ('shared', 778240), ('slab', 57339904)])
+INFO:root:Thu Jul  2 16:31:00 2020 | cpu times: OrderedDict([('user', 31.62), ('nice', 0.0), ('system', 10.31), ('idle', 2767.38), ('iowait', 3.97), ('irq', 0.0), ('softirq', 0.21), ('steal', 6.72), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 80121856), ('percent', 92.2), ('used', 820940800), ('free', 101523456), ('active', 795291648), ('inactive', 35155968), ('buffers', 10756096), ('cached', 93138944), ('shared', 778240), ('slab', 57339904)])
+INFO:root:Thu Jul  2 16:32:00 2020 | cpu times: OrderedDict([('user', 31.65), ('nice', 0.0), ('system', 10.32), ('idle', 2827.3), ('iowait', 3.98), ('irq', 0.0), ('softirq', 0.22), ('steal', 6.73), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 79937536), ('percent', 92.2), ('used', 821059584), ('free', 101265408), ('active', 795901952), ('inactive', 34844672), ('buffers', 10764288), ('cached', 93270016), ('shared', 778240), ('slab', 57339904)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 16:33:01 2020 | Data from Google Sheet retrieved at Thu Jul  2 16:33:01 2020
+INFO:root:Thu Jul  2 16:33:01 2020 | cpu times: OrderedDict([('user', 32.05), ('nice', 0.0), ('system', 10.35), ('idle', 2888.01), ('iowait', 3.99), ('irq', 0.0), ('softirq', 0.22), ('steal', 6.73), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 55939072), ('percent', 94.5), ('used', 844976128), ('free', 77189120), ('active', 820727808), ('inactive', 34885632), ('buffers', 10792960), ('cached', 93401088), ('shared', 778240), ('slab', 57339904)])
+INFO:root:Thu Jul  2 16:33:01 2020 | Beginning processing at Thu Jul  2 16:33:01 2020, running 1 queries
+INFO:root:Thu Jul  2 16:33:01 2020 | cpu times: OrderedDict([('user', 32.06), ('nice', 0.0), ('system', 10.35), ('idle', 2888.01), ('iowait', 3.99), ('irq', 0.0), ('softirq', 0.22), ('steal', 6.73), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 55939072), ('percent', 94.5), ('used', 844976128), ('free', 77189120), ('active', 820801536), ('inactive', 34885632), ('buffers', 10792960), ('cached', 93401088), ('shared', 778240), ('slab', 57339904)])
+INFO:root:Thu Jul  2 16:33:13 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 16:33:13 2020 | Processing completed in 12.09 seconds
+INFO:root:Thu Jul  2 16:33:13 2020 | cpu times: OrderedDict([('user', 32.21), ('nice', 0.0), ('system', 10.35), ('idle', 2899.93), ('iowait', 3.99), ('irq', 0.0), ('softirq', 0.22), ('steal', 6.73), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 54689792), ('percent', 94.7), ('used', 846225408), ('free', 75935744), ('active', 820948992), ('inactive', 34889728), ('buffers', 10792960), ('cached', 93405184), ('shared', 778240), ('slab', 57348096)])
+INFO:root:Thu Jul  2 16:34:13 2020 | cpu times: OrderedDict([('user', 32.24), ('nice', 0.0), ('system', 10.36), ('idle', 2959.8), ('iowait', 3.99), ('irq', 0.0), ('softirq', 0.22), ('steal', 6.73), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 54579200), ('percent', 94.7), ('used', 846311424), ('free', 75804672), ('active', 821178368), ('inactive', 34869248), ('buffers', 10809344), ('cached', 93433856), ('shared', 778240), ('slab', 57348096)])
+INFO:root:Thu Jul  2 16:35:14 2020 | cpu times: OrderedDict([('user', 32.25), ('nice', 0.0), ('system', 10.37), ('idle', 3019.73), ('iowait', 4.0), ('irq', 0.0), ('softirq', 0.22), ('steal', 6.74), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 56782848), ('percent', 94.5), ('used', 844103680), ('free', 78004224), ('active', 819011584), ('inactive', 34820096), ('buffers', 10817536), ('cached', 93433856), ('shared', 778240), ('slab', 57348096)])
+INFO:root:Thu Jul  2 16:36:14 2020 | cpu times: OrderedDict([('user', 32.27), ('nice', 0.0), ('system', 10.37), ('idle', 3079.66), ('iowait', 4.01), ('irq', 0.0), ('softirq', 0.22), ('steal', 6.74), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 56107008), ('percent', 94.5), ('used', 844713984), ('free', 77262848), ('active', 820035584), ('inactive', 34922496), ('buffers', 10833920), ('cached', 93548544), ('shared', 778240), ('slab', 57339904)])
+INFO:root:Thu Jul  2 16:37:14 2020 | cpu times: OrderedDict([('user', 32.69), ('nice', 0.0), ('system', 10.56), ('idle', 3138.35), ('iowait', 4.66), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.76), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 62787584), ('percent', 93.9), ('used', 846233600), ('free', 92196864), ('active', 806866944), ('inactive', 33886208), ('buffers', 6352896), ('cached', 81575936), ('shared', 778240), ('slab', 56934400)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 16:38:15 2020 | Data from Google Sheet retrieved at Thu Jul  2 16:38:15 2020
+INFO:root:Thu Jul  2 16:38:15 2020 | cpu times: OrderedDict([('user', 33.12), ('nice', 0.0), ('system', 10.64), ('idle', 3199.09), ('iowait', 4.81), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.78), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 38940672), ('percent', 96.2), ('used', 878878720), ('free', 77119488), ('active', 839258112), ('inactive', 19128320), ('buffers', 4632576), ('cached', 65728512), ('shared', 778240), ('slab', 55406592)])
+INFO:root:Thu Jul  2 16:38:15 2020 | Beginning processing at Thu Jul  2 16:38:15 2020, running 1 queries
+INFO:root:Thu Jul  2 16:38:15 2020 | cpu times: OrderedDict([('user', 33.12), ('nice', 0.0), ('system', 10.65), ('idle', 3199.09), ('iowait', 4.82), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.78), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 37834752), ('percent', 96.3), ('used', 878751744), ('free', 74797056), ('active', 838963200), ('inactive', 20934656), ('buffers', 4632576), ('cached', 68177920), ('shared', 778240), ('slab', 55406592)])
+INFO:root:Thu Jul  2 16:38:27 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 16:38:27 2020 | Processing completed in 11.59 seconds
+INFO:root:Thu Jul  2 16:38:27 2020 | cpu times: OrderedDict([('user', 33.35), ('nice', 0.0), ('system', 10.66), ('idle', 3210.1), ('iowait', 5.11), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.78), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 45555712), ('percent', 95.6), ('used', 866189312), ('free', 77660160), ('active', 832151552), ('inactive', 25841664), ('buffers', 7340032), ('cached', 75169792), ('shared', 770048), ('slab', 55349248)])
+INFO:root:Thu Jul  2 16:39:27 2020 | cpu times: OrderedDict([('user', 33.37), ('nice', 0.0), ('system', 10.81), ('idle', 3269.8), ('iowait', 5.17), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.79), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 44814336), ('percent', 95.6), ('used', 861609984), ('free', 71602176), ('active', 831672320), ('inactive', 32014336), ('buffers', 8925184), ('cached', 84221952), ('shared', 770048), ('slab', 55431168)])
+INFO:root:Thu Jul  2 16:40:27 2020 | cpu times: OrderedDict([('user', 33.39), ('nice', 0.0), ('system', 10.81), ('idle', 3329.71), ('iowait', 5.19), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.79), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 45215744), ('percent', 95.6), ('used', 861167616), ('free', 71913472), ('active', 831541248), ('inactive', 31997952), ('buffers', 8957952), ('cached', 84320256), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:41:27 2020 | cpu times: OrderedDict([('user', 33.4), ('nice', 0.0), ('system', 10.81), ('idle', 3389.66), ('iowait', 5.2), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.79), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 45486080), ('percent', 95.6), ('used', 860889088), ('free', 72175616), ('active', 831512576), ('inactive', 31997952), ('buffers', 8974336), ('cached', 84320256), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:42:27 2020 | cpu times: OrderedDict([('user', 33.41), ('nice', 0.0), ('system', 10.82), ('idle', 3449.58), ('iowait', 5.24), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.8), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 44781568), ('percent', 95.6), ('used', 860221440), ('free', 70119424), ('active', 833282048), ('inactive', 33038336), ('buffers', 8982528), ('cached', 87035904), ('shared', 761856), ('slab', 55394304)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 16:43:28 2020 | Data from Google Sheet retrieved at Thu Jul  2 16:43:28 2020
+INFO:root:Thu Jul  2 16:43:28 2020 | cpu times: OrderedDict([('user', 33.81), ('nice', 0.0), ('system', 10.83), ('idle', 3510.39), ('iowait', 5.24), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.8), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 44457984), ('percent', 95.7), ('used', 860524544), ('free', 69754880), ('active', 833523712), ('inactive', 33075200), ('buffers', 9003008), ('cached', 87076864), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:43:28 2020 | Beginning processing at Thu Jul  2 16:43:28 2020, running 1 queries
+INFO:root:Thu Jul  2 16:43:28 2020 | cpu times: OrderedDict([('user', 33.81), ('nice', 0.0), ('system', 10.83), ('idle', 3510.39), ('iowait', 5.24), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.8), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 44457984), ('percent', 95.7), ('used', 860524544), ('free', 69754880), ('active', 833597440), ('inactive', 33075200), ('buffers', 9003008), ('cached', 87076864), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:43:40 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 16:43:40 2020 | Processing completed in 11.32 seconds
+INFO:root:Thu Jul  2 16:43:40 2020 | cpu times: OrderedDict([('user', 33.96), ('nice', 0.0), ('system', 10.83), ('idle', 3521.53), ('iowait', 5.25), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.8), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 44462080), ('percent', 95.7), ('used', 860516352), ('free', 69754880), ('active', 834093056), ('inactive', 32718848), ('buffers', 9011200), ('cached', 87076864), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:44:40 2020 | cpu times: OrderedDict([('user', 33.96), ('nice', 0.0), ('system', 10.85), ('idle', 3581.4), ('iowait', 5.27), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.81), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 43290624), ('percent', 95.8), ('used', 860794880), ('free', 67690496), ('active', 834662400), ('inactive', 34131968), ('buffers', 9027584), ('cached', 88846336), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:45:40 2020 | cpu times: OrderedDict([('user', 33.97), ('nice', 0.0), ('system', 10.85), ('idle', 3641.34), ('iowait', 5.28), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.81), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 42516480), ('percent', 95.9), ('used', 861564928), ('free', 66912256), ('active', 834785280), ('inactive', 34131968), ('buffers', 9035776), ('cached', 88846336), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:46:40 2020 | cpu times: OrderedDict([('user', 33.97), ('nice', 0.0), ('system', 10.86), ('idle', 3701.3), ('iowait', 5.28), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.81), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 42577920), ('percent', 95.9), ('used', 861437952), ('free', 66908160), ('active', 834912256), ('inactive', 34246656), ('buffers', 9052160), ('cached', 88961024), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:47:40 2020 | cpu times: OrderedDict([('user', 34.0), ('nice', 0.0), ('system', 10.87), ('idle', 3761.2), ('iowait', 5.32), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.81), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 43741184), ('percent', 95.7), ('used', 859619328), ('free', 67416064), ('active', 834363392), ('inactive', 33857536), ('buffers', 9072640), ('cached', 90251264), ('shared', 761856), ('slab', 55394304)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 16:48:41 2020 | Data from Google Sheet retrieved at Thu Jul  2 16:48:41 2020
+INFO:root:Thu Jul  2 16:48:41 2020 | cpu times: OrderedDict([('user', 34.37), ('nice', 0.0), ('system', 10.87), ('idle', 3822.2), ('iowait', 5.33), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.82), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 44539904), ('percent', 95.7), ('used', 858763264), ('free', 68157440), ('active', 833683456), ('inactive', 33890304), ('buffers', 9089024), ('cached', 90349568), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:48:41 2020 | Beginning processing at Thu Jul  2 16:48:41 2020, running 1 queries
+INFO:root:Thu Jul  2 16:48:41 2020 | cpu times: OrderedDict([('user', 34.37), ('nice', 0.0), ('system', 10.87), ('idle', 3822.2), ('iowait', 5.33), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.82), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 45314048), ('percent', 95.6), ('used', 857989120), ('free', 68931584), ('active', 832761856), ('inactive', 33890304), ('buffers', 9089024), ('cached', 90349568), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:48:53 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 16:48:53 2020 | Processing completed in 12.21 seconds
+INFO:root:Thu Jul  2 16:48:53 2020 | cpu times: OrderedDict([('user', 34.51), ('nice', 0.0), ('system', 10.87), ('idle', 3834.24), ('iowait', 5.33), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.82), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 45056000), ('percent', 95.6), ('used', 858247168), ('free', 68673536), ('active', 832921600), ('inactive', 33882112), ('buffers', 9089024), ('cached', 90349568), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:49:54 2020 | cpu times: OrderedDict([('user', 34.54), ('nice', 0.0), ('system', 10.88), ('idle', 3894.16), ('iowait', 5.33), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.82), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 45068288), ('percent', 95.6), ('used', 858222592), ('free', 68673536), ('active', 833220608), ('inactive', 33726464), ('buffers', 9105408), ('cached', 90357760), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:50:54 2020 | cpu times: OrderedDict([('user', 34.55), ('nice', 0.0), ('system', 10.89), ('idle', 3954.04), ('iowait', 5.34), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.83), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 45338624), ('percent', 95.6), ('used', 857944064), ('free', 68931584), ('active', 832888832), ('inactive', 33726464), ('buffers', 9113600), ('cached', 90370048), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:51:54 2020 | cpu times: OrderedDict([('user', 34.57), ('nice', 0.0), ('system', 10.89), ('idle', 4013.94), ('iowait', 5.35), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.83), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 45088768), ('percent', 95.6), ('used', 858185728), ('free', 68673536), ('active', 833048576), ('inactive', 33726464), ('buffers', 9129984), ('cached', 90370048), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:52:54 2020 | cpu times: OrderedDict([('user', 34.57), ('nice', 0.0), ('system', 10.89), ('idle', 4073.83), ('iowait', 5.35), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.83), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 45096960), ('percent', 95.6), ('used', 858165248), ('free', 68673536), ('active', 833183744), ('inactive', 33726464), ('buffers', 9138176), ('cached', 90382336), ('shared', 761856), ('slab', 55394304)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 16:53:55 2020 | Data from Google Sheet retrieved at Thu Jul  2 16:53:55 2020
+INFO:root:Thu Jul  2 16:53:55 2020 | cpu times: OrderedDict([('user', 34.97), ('nice', 0.0), ('system', 10.9), ('idle', 4134.75), ('iowait', 5.36), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.84), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 45080576), ('percent', 95.6), ('used', 858165248), ('free', 68640768), ('active', 833400832), ('inactive', 33730560), ('buffers', 9154560), ('cached', 90398720), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:53:55 2020 | Beginning processing at Thu Jul  2 16:53:55 2020, running 1 queries
+INFO:root:Thu Jul  2 16:53:55 2020 | cpu times: OrderedDict([('user', 34.98), ('nice', 0.0), ('system', 10.9), ('idle', 4134.75), ('iowait', 5.36), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.84), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 45080576), ('percent', 95.6), ('used', 858165248), ('free', 68640768), ('active', 833437696), ('inactive', 33730560), ('buffers', 9154560), ('cached', 90398720), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:54:12 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 16:54:12 2020 | Processing completed in 16.62 seconds
+INFO:root:Thu Jul  2 16:54:12 2020 | cpu times: OrderedDict([('user', 35.13), ('nice', 0.0), ('system', 10.91), ('idle', 4151.18), ('iowait', 5.36), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.84), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 45101056), ('percent', 95.6), ('used', 858136576), ('free', 68657152), ('active', 833613824), ('inactive', 33734656), ('buffers', 9162752), ('cached', 90402816), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:55:12 2020 | cpu times: OrderedDict([('user', 35.16), ('nice', 0.0), ('system', 10.92), ('idle', 4211.08), ('iowait', 5.37), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.84), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 43831296), ('percent', 95.7), ('used', 859353088), ('free', 67325952), ('active', 834084864), ('inactive', 33832960), ('buffers', 9170944), ('cached', 90509312), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:56:12 2020 | cpu times: OrderedDict([('user', 35.16), ('nice', 0.0), ('system', 10.93), ('idle', 4271.04), ('iowait', 5.37), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.85), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 43835392), ('percent', 95.7), ('used', 859336704), ('free', 67325952), ('active', 834220032), ('inactive', 33832960), ('buffers', 9187328), ('cached', 90509312), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:57:12 2020 | cpu times: OrderedDict([('user', 35.17), ('nice', 0.0), ('system', 10.95), ('idle', 4330.97), ('iowait', 5.38), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.85), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 44625920), ('percent', 95.7), ('used', 858546176), ('free', 68108288), ('active', 833581056), ('inactive', 33832960), ('buffers', 9195520), ('cached', 90509312), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:58:12 2020 | cpu times: OrderedDict([('user', 35.2), ('nice', 0.0), ('system', 10.95), ('idle', 4390.86), ('iowait', 5.39), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.85), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 44371968), ('percent', 95.7), ('used', 858787840), ('free', 67850240), ('active', 833732608), ('inactive', 33832960), ('buffers', 9211904), ('cached', 90509312), ('shared', 761856), ('slab', 55394304)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 16:59:13 2020 | Data from Google Sheet retrieved at Thu Jul  2 16:59:13 2020
+INFO:root:Thu Jul  2 16:59:13 2020 | cpu times: OrderedDict([('user', 35.59), ('nice', 0.0), ('system', 10.95), ('idle', 4451.58), ('iowait', 5.39), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.86), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 43839488), ('percent', 95.7), ('used', 859312128), ('free', 67301376), ('active', 834207744), ('inactive', 33845248), ('buffers', 9220096), ('cached', 90525696), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:59:13 2020 | Beginning processing at Thu Jul  2 16:59:13 2020, running 1 queries
+INFO:root:Thu Jul  2 16:59:13 2020 | cpu times: OrderedDict([('user', 35.59), ('nice', 0.0), ('system', 10.96), ('idle', 4451.58), ('iowait', 5.39), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.86), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 44871680), ('percent', 95.6), ('used', 858279936), ('free', 68333568), ('active', 833286144), ('inactive', 33845248), ('buffers', 9220096), ('cached', 90525696), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 16:59:25 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 16:59:25 2020 | Processing completed in 12.18 seconds
+INFO:root:Thu Jul  2 16:59:25 2020 | cpu times: OrderedDict([('user', 35.73), ('nice', 0.0), ('system', 10.97), ('idle', 4463.59), ('iowait', 5.39), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.86), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 44871680), ('percent', 95.6), ('used', 858279936), ('free', 68333568), ('active', 833425408), ('inactive', 33845248), ('buffers', 9220096), ('cached', 90525696), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 17:00:25 2020 | cpu times: OrderedDict([('user', 35.75), ('nice', 0.0), ('system', 10.97), ('idle', 4523.5), ('iowait', 5.41), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.99), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 44630016), ('percent', 95.7), ('used', 858497024), ('free', 68075520), ('active', 833581056), ('inactive', 33861632), ('buffers', 9244672), ('cached', 90542080), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 17:01:25 2020 | cpu times: OrderedDict([('user', 35.75), ('nice', 0.0), ('system', 10.97), ('idle', 4583.45), ('iowait', 5.42), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.99), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 44646400), ('percent', 95.7), ('used', 858468352), ('free', 68075520), ('active', 833724416), ('inactive', 33861632), ('buffers', 9252864), ('cached', 90562560), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 17:02:25 2020 | cpu times: OrderedDict([('user', 35.76), ('nice', 0.0), ('system', 10.98), ('idle', 4643.4), ('iowait', 5.42), ('irq', 0.0), ('softirq', 0.24), ('steal', 6.99), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 44654592), ('percent', 95.6), ('used', 858447872), ('free', 68075520), ('active', 833839104), ('inactive', 33865728), ('buffers', 9269248), ('cached', 90566656), ('shared', 761856), ('slab', 55394304)])
+INFO:root:Thu Jul  2 17:03:25 2020 | cpu times: OrderedDict([('user', 35.76), ('nice', 0.0), ('system', 10.98), ('idle', 4703.31), ('iowait', 5.43), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.0), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 44662784), ('percent', 95.6), ('used', 858435584), ('free', 68075520), ('active', 833970176), ('inactive', 33865728), ('buffers', 9277440), ('cached', 90570752), ('shared', 761856), ('slab', 55394304)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 17:04:27 2020 | Data from Google Sheet retrieved at Thu Jul  2 17:04:27 2020
+INFO:root:Thu Jul  2 17:04:27 2020 | cpu times: OrderedDict([('user', 36.16), ('nice', 0.0), ('system', 11.01), ('idle', 4764.29), ('iowait', 5.45), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.0), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 50626560), ('percent', 95.1), ('used', 860254208), ('free', 81833984), ('active', 825978880), ('inactive', 28241920), ('buffers', 7897088), ('cached', 76374016), ('shared', 761856), ('slab', 55267328)])
+INFO:root:Thu Jul  2 17:04:27 2020 | Beginning processing at Thu Jul  2 17:04:27 2020, running 1 queries
+INFO:root:Thu Jul  2 17:04:27 2020 | cpu times: OrderedDict([('user', 36.16), ('nice', 0.0), ('system', 11.01), ('idle', 4764.29), ('iowait', 5.45), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.0), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 50626560), ('percent', 95.1), ('used', 860254208), ('free', 81833984), ('active', 826052608), ('inactive', 28241920), ('buffers', 7897088), ('cached', 76374016), ('shared', 761856), ('slab', 55267328)])
+INFO:root:Thu Jul  2 17:04:39 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 17:04:39 2020 | Processing completed in 12.13 seconds
+INFO:root:Thu Jul  2 17:04:39 2020 | cpu times: OrderedDict([('user', 36.3), ('nice', 0.0), ('system', 11.03), ('idle', 4776.24), ('iowait', 5.46), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.01), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 49762304), ('percent', 95.2), ('used', 860995584), ('free', 80834560), ('active', 827834368), ('inactive', 26865664), ('buffers', 7897088), ('cached', 76632064), ('shared', 761856), ('slab', 55267328)])
+INFO:root:Thu Jul  2 17:05:39 2020 | cpu times: OrderedDict([('user', 36.3), ('nice', 0.0), ('system', 11.03), ('idle', 4836.11), ('iowait', 5.48), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.01), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 50585600), ('percent', 95.1), ('used', 859860992), ('free', 81350656), ('active', 829788160), ('inactive', 24625152), ('buffers', 7929856), ('cached', 77217792), ('shared', 761856), ('slab', 55267328)])
+INFO:root:Thu Jul  2 17:06:39 2020 | cpu times: OrderedDict([('user', 36.32), ('nice', 0.0), ('system', 11.05), ('idle', 4896.01), ('iowait', 5.52), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.01), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 49373184), ('percent', 95.2), ('used', 860221440), ('free', 79286272), ('active', 832909312), ('inactive', 23334912), ('buffers', 8151040), ('cached', 78700544), ('shared', 761856), ('slab', 55267328)])
+INFO:root:Thu Jul  2 17:07:39 2020 | cpu times: OrderedDict([('user', 36.32), ('nice', 0.0), ('system', 11.05), ('idle', 4955.93), ('iowait', 5.53), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.02), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 49397760), ('percent', 95.2), ('used', 860172288), ('free', 79286272), ('active', 833048576), ('inactive', 23351296), ('buffers', 8167424), ('cached', 78733312), ('shared', 761856), ('slab', 55267328)])
+INFO:root:Thu Jul  2 17:08:39 2020 | cpu times: OrderedDict([('user', 36.32), ('nice', 0.0), ('system', 11.05), ('idle', 5015.88), ('iowait', 5.54), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.02), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 49188864), ('percent', 95.2), ('used', 860332032), ('free', 79028224), ('active', 833249280), ('inactive', 23355392), ('buffers', 8175616), ('cached', 78823424), ('shared', 761856), ('slab', 55267328)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 17:09:41 2020 | Data from Google Sheet retrieved at Thu Jul  2 17:09:41 2020
+INFO:root:Thu Jul  2 17:09:41 2020 | cpu times: OrderedDict([('user', 36.72), ('nice', 0.0), ('system', 11.07), ('idle', 5076.83), ('iowait', 5.55), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.02), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 46624768), ('percent', 95.5), ('used', 862851072), ('free', 76414976), ('active', 835698688), ('inactive', 23277568), ('buffers', 8192000), ('cached', 78901248), ('shared', 761856), ('slab', 55267328)])
+INFO:root:Thu Jul  2 17:09:41 2020 | Beginning processing at Thu Jul  2 17:09:41 2020, running 1 queries
+INFO:root:Thu Jul  2 17:09:41 2020 | cpu times: OrderedDict([('user', 36.72), ('nice', 0.0), ('system', 11.07), ('idle', 5076.83), ('iowait', 5.55), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.02), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 46624768), ('percent', 95.5), ('used', 862851072), ('free', 76414976), ('active', 835735552), ('inactive', 23277568), ('buffers', 8192000), ('cached', 78901248), ('shared', 761856), ('slab', 55267328)])
+INFO:root:Thu Jul  2 17:09:53 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 17:09:53 2020 | Processing completed in 12.24 seconds
+INFO:root:Thu Jul  2 17:09:53 2020 | cpu times: OrderedDict([('user', 36.86), ('nice', 0.0), ('system', 11.07), ('idle', 5088.89), ('iowait', 5.55), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.02), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 46882816), ('percent', 95.4), ('used', 862588928), ('free', 76673024), ('active', 835915776), ('inactive', 23023616), ('buffers', 8192000), ('cached', 78905344), ('shared', 761856), ('slab', 55267328)])
+INFO:root:Thu Jul  2 17:10:53 2020 | cpu times: OrderedDict([('user', 36.86), ('nice', 0.0), ('system', 11.08), ('idle', 5148.85), ('iowait', 5.55), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.03), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 46669824), ('percent', 95.5), ('used', 862756864), ('free', 76414976), ('active', 836124672), ('inactive', 23031808), ('buffers', 8208384), ('cached', 78979072), ('shared', 761856), ('slab', 55267328)])
+INFO:root:Thu Jul  2 17:11:53 2020 | cpu times: OrderedDict([('user', 36.87), ('nice', 0.0), ('system', 11.08), ('idle', 5208.75), ('iowait', 5.56), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.03), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 46678016), ('percent', 95.5), ('used', 862744576), ('free', 76414976), ('active', 836255744), ('inactive', 23023616), ('buffers', 8216576), ('cached', 78983168), ('shared', 761856), ('slab', 55267328)])
+INFO:root:Thu Jul  2 17:12:53 2020 | cpu times: OrderedDict([('user', 36.88), ('nice', 0.0), ('system', 11.09), ('idle', 5268.67), ('iowait', 5.56), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.03), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 46698496), ('percent', 95.5), ('used', 862699520), ('free', 76414976), ('active', 836415488), ('inactive', 23023616), ('buffers', 8232960), ('cached', 79011840), ('shared', 761856), ('slab', 55267328)])
+INFO:root:Thu Jul  2 17:13:53 2020 | cpu times: OrderedDict([('user', 36.88), ('nice', 0.0), ('system', 11.09), ('idle', 5328.58), ('iowait', 5.57), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.04), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 46702592), ('percent', 95.4), ('used', 862691328), ('free', 76414976), ('active', 836530176), ('inactive', 23023616), ('buffers', 8241152), ('cached', 79011840), ('shared', 761856), ('slab', 55267328)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 17:14:54 2020 | Data from Google Sheet retrieved at Thu Jul  2 17:14:54 2020
+INFO:root:Thu Jul  2 17:14:54 2020 | cpu times: OrderedDict([('user', 37.23), ('nice', 0.0), ('system', 11.15), ('idle', 5389.44), ('iowait', 5.58), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.04), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 43016192), ('percent', 95.8), ('used', 866168832), ('free', 72511488), ('active', 839913472), ('inactive', 23126016), ('buffers', 8531968), ('cached', 79147008), ('shared', 761856), ('slab', 55271424)])
+INFO:root:Thu Jul  2 17:14:54 2020 | Beginning processing at Thu Jul  2 17:14:54 2020, running 1 queries
+INFO:root:Thu Jul  2 17:14:54 2020 | cpu times: OrderedDict([('user', 37.23), ('nice', 0.0), ('system', 11.15), ('idle', 5389.44), ('iowait', 5.58), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.04), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 43016192), ('percent', 95.8), ('used', 866168832), ('free', 72511488), ('active', 839950336), ('inactive', 23126016), ('buffers', 8531968), ('cached', 79147008), ('shared', 761856), ('slab', 55271424)])
+INFO:root:Thu Jul  2 17:15:08 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 17:15:08 2020 | Processing completed in 13.37 seconds
+INFO:root:Thu Jul  2 17:15:08 2020 | cpu times: OrderedDict([('user', 37.37), ('nice', 0.0), ('system', 11.17), ('idle', 5402.62), ('iowait', 5.58), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.04), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 42020864), ('percent', 95.9), ('used', 867127296), ('free', 71479296), ('active', 840978432), ('inactive', 23130112), ('buffers', 8556544), ('cached', 79196160), ('shared', 761856), ('slab', 55271424)])
+INFO:root:Thu Jul  2 17:16:08 2020 | cpu times: OrderedDict([('user', 37.38), ('nice', 0.0), ('system', 11.18), ('idle', 5462.52), ('iowait', 5.59), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.05), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 41795584), ('percent', 95.9), ('used', 867319808), ('free', 71221248), ('active', 841330688), ('inactive', 22994944), ('buffers', 8568832), ('cached', 79249408), ('shared', 761856), ('slab', 55271424)])
+INFO:root:Thu Jul  2 17:17:08 2020 | cpu times: OrderedDict([('user', 37.41), ('nice', 0.0), ('system', 11.19), ('idle', 5522.45), ('iowait', 5.6), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.05), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 41582592), ('percent', 95.9), ('used', 867479552), ('free', 70963200), ('active', 841687040), ('inactive', 22831104), ('buffers', 8593408), ('cached', 79323136), ('shared', 761856), ('slab', 55279616)])
+INFO:root:Thu Jul  2 17:18:08 2020 | cpu times: OrderedDict([('user', 37.41), ('nice', 0.0), ('system', 11.2), ('idle', 5582.41), ('iowait', 5.6), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.05), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 41639936), ('percent', 95.9), ('used', 867360768), ('free', 70963200), ('active', 841854976), ('inactive', 22884352), ('buffers', 8609792), ('cached', 79425536), ('shared', 761856), ('slab', 55279616)])
+INFO:root:Thu Jul  2 17:19:08 2020 | cpu times: OrderedDict([('user', 37.43), ('nice', 0.0), ('system', 11.21), ('idle', 5642.31), ('iowait', 5.61), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.06), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 41152512), ('percent', 96.0), ('used', 867823616), ('free', 70447104), ('active', 842018816), ('inactive', 22888448), ('buffers', 8617984), ('cached', 79470592), ('shared', 761856), ('slab', 55279616)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 17:20:09 2020 | Data from Google Sheet retrieved at Thu Jul  2 17:20:09 2020
+INFO:root:Thu Jul  2 17:20:09 2020 | cpu times: OrderedDict([('user', 37.83), ('nice', 0.0), ('system', 11.29), ('idle', 5703.3), ('iowait', 5.63), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.06), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 47656960), ('percent', 95.4), ('used', 869724160), ('free', 85348352), ('active', 826298368), ('inactive', 23707648), ('buffers', 3596288), ('cached', 67690496), ('shared', 761856), ('slab', 55283712)])
+INFO:root:Thu Jul  2 17:20:09 2020 | Beginning processing at Thu Jul  2 17:20:09 2020, running 1 queries
+INFO:root:Thu Jul  2 17:20:09 2020 | cpu times: OrderedDict([('user', 37.83), ('nice', 0.0), ('system', 11.29), ('idle', 5703.3), ('iowait', 5.63), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.06), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 47656960), ('percent', 95.4), ('used', 869724160), ('free', 85348352), ('active', 826335232), ('inactive', 23707648), ('buffers', 3596288), ('cached', 67690496), ('shared', 761856), ('slab', 55283712)])
+INFO:root:Thu Jul  2 17:20:33 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 17:20:33 2020 | Processing completed in 23.40 seconds
+INFO:root:Thu Jul  2 17:20:33 2020 | cpu times: OrderedDict([('user', 38.08), ('nice', 0.0), ('system', 11.29), ('idle', 5726.36), ('iowait', 5.66), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.06), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 72081408), ('percent', 93.0), ('used', 845131776), ('free', 109604864), ('active', 803434496), ('inactive', 22597632), ('buffers', 3936256), ('cached', 67686400), ('shared', 761856), ('slab', 55267328)])
+INFO:root:Thu Jul  2 17:21:33 2020 | cpu times: OrderedDict([('user', 38.1), ('nice', 0.0), ('system', 11.31), ('idle', 5786.24), ('iowait', 5.68), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.07), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 71479296), ('percent', 93.0), ('used', 845037568), ('free', 108314624), ('active', 806690816), ('inactive', 20811776), ('buffers', 4849664), ('cached', 68157440), ('shared', 761856), ('slab', 55287808)])
+INFO:root:Thu Jul  2 17:22:33 2020 | cpu times: OrderedDict([('user', 38.13), ('nice', 0.0), ('system', 11.32), ('idle', 5846.08), ('iowait', 5.72), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.07), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 69144576), ('percent', 93.3), ('used', 846532608), ('free', 105136128), ('active', 810426368), ('inactive', 19783680), ('buffers', 5238784), ('cached', 69451776), ('shared', 761856), ('slab', 55296000)])
+INFO:root:Thu Jul  2 17:23:33 2020 | cpu times: OrderedDict([('user', 38.14), ('nice', 0.0), ('system', 11.32), ('idle', 5905.99), ('iowait', 5.73), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.07), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 69152768), ('percent', 93.3), ('used', 846503936), ('free', 105136128), ('active', 810532864), ('inactive', 19791872), ('buffers', 5255168), ('cached', 69464064), ('shared', 761856), ('slab', 55296000)])
+INFO:root:Thu Jul  2 17:24:33 2020 | cpu times: OrderedDict([('user', 38.15), ('nice', 0.0), ('system', 11.32), ('idle', 5965.89), ('iowait', 5.73), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.08), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 69996544), ('percent', 93.2), ('used', 845635584), ('free', 105959424), ('active', 809791488), ('inactive', 19771392), ('buffers', 5263360), ('cached', 69500928), ('shared', 761856), ('slab', 55296000)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 17:25:34 2020 | Data from Google Sheet retrieved at Thu Jul  2 17:25:34 2020
+INFO:root:Thu Jul  2 17:25:34 2020 | cpu times: OrderedDict([('user', 38.55), ('nice', 0.0), ('system', 11.33), ('idle', 6026.71), ('iowait', 5.74), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.08), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 70189056), ('percent', 93.2), ('used', 845262848), ('free', 105959424), ('active', 810160128), ('inactive', 19988480), ('buffers', 5279744), ('cached', 69857280), ('shared', 761856), ('slab', 55296000)])
+INFO:root:Thu Jul  2 17:25:34 2020 | Beginning processing at Thu Jul  2 17:25:34 2020, running 1 queries
+INFO:root:Thu Jul  2 17:25:34 2020 | cpu times: OrderedDict([('user', 38.56), ('nice', 0.0), ('system', 11.33), ('idle', 6026.71), ('iowait', 5.74), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.08), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 70189056), ('percent', 93.2), ('used', 845262848), ('free', 105959424), ('active', 810196992), ('inactive', 19988480), ('buffers', 5279744), ('cached', 69857280), ('shared', 761856), ('slab', 55296000)])
+INFO:root:Thu Jul  2 17:25:45 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 17:25:45 2020 | Processing completed in 11.15 seconds
+INFO:root:Thu Jul  2 17:25:45 2020 | cpu times: OrderedDict([('user', 38.69), ('nice', 0.0), ('system', 11.33), ('idle', 6037.69), ('iowait', 5.74), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.08), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 70176768), ('percent', 93.2), ('used', 845275136), ('free', 105943040), ('active', 810389504), ('inactive', 19992576), ('buffers', 5279744), ('cached', 69861376), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:26:45 2020 | cpu times: OrderedDict([('user', 38.71), ('nice', 0.0), ('system', 11.33), ('idle', 6097.59), ('iowait', 5.75), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.09), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 69414912), ('percent', 93.2), ('used', 846016512), ('free', 105168896), ('active', 810577920), ('inactive', 19943424), ('buffers', 5296128), ('cached', 69877760), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:27:45 2020 | cpu times: OrderedDict([('user', 38.71), ('nice', 0.0), ('system', 11.35), ('idle', 6157.54), ('iowait', 5.75), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.09), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 69173248), ('percent', 93.3), ('used', 846249984), ('free', 104910848), ('active', 810700800), ('inactive', 19959808), ('buffers', 5304320), ('cached', 69894144), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:28:46 2020 | cpu times: OrderedDict([('user', 38.72), ('nice', 0.0), ('system', 11.35), ('idle', 6217.45), ('iowait', 5.76), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.09), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 69181440), ('percent', 93.3), ('used', 846233600), ('free', 104910848), ('active', 810827776), ('inactive', 19959808), ('buffers', 5320704), ('cached', 69894144), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:29:46 2020 | cpu times: OrderedDict([('user', 38.75), ('nice', 0.0), ('system', 11.36), ('idle', 6277.37), ('iowait', 5.77), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.1), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 68964352), ('percent', 93.3), ('used', 846409728), ('free', 104652800), ('active', 811053056), ('inactive', 19931136), ('buffers', 5337088), ('cached', 69959680), ('shared', 761856), ('slab', 55312384)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 17:30:47 2020 | Data from Google Sheet retrieved at Thu Jul  2 17:30:47 2020
+INFO:root:Thu Jul  2 17:30:47 2020 | cpu times: OrderedDict([('user', 39.15), ('nice', 0.0), ('system', 11.36), ('idle', 6338.19), ('iowait', 5.77), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.1), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 68935680), ('percent', 93.3), ('used', 846430208), ('free', 104620032), ('active', 811220992), ('inactive', 19935232), ('buffers', 5345280), ('cached', 69963776), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:30:47 2020 | Beginning processing at Thu Jul  2 17:30:47 2020, running 1 queries
+INFO:root:Thu Jul  2 17:30:47 2020 | cpu times: OrderedDict([('user', 39.16), ('nice', 0.0), ('system', 11.36), ('idle', 6338.19), ('iowait', 5.77), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.1), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 68935680), ('percent', 93.3), ('used', 846430208), ('free', 104620032), ('active', 811331584), ('inactive', 19935232), ('buffers', 5345280), ('cached', 69963776), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:30:59 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 17:30:59 2020 | Processing completed in 12.19 seconds
+INFO:root:Thu Jul  2 17:30:59 2020 | cpu times: OrderedDict([('user', 39.31), ('nice', 0.0), ('system', 11.37), ('idle', 6350.21), ('iowait', 5.77), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.1), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 68644864), ('percent', 93.3), ('used', 846721024), ('free', 104329216), ('active', 812224512), ('inactive', 19935232), ('buffers', 5345280), ('cached', 69963776), ('shared', 761856), ('slab', 55304192)])
+INFO:root:Thu Jul  2 17:31:59 2020 | cpu times: OrderedDict([('user', 39.34), ('nice', 0.0), ('system', 11.38), ('idle', 6410.11), ('iowait', 5.78), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.11), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 69480448), ('percent', 93.2), ('used', 845869056), ('free', 105144320), ('active', 810565632), ('inactive', 19947520), ('buffers', 5365760), ('cached', 69980160), ('shared', 761856), ('slab', 55304192)])
+INFO:root:Thu Jul  2 17:32:59 2020 | cpu times: OrderedDict([('user', 39.35), ('nice', 0.0), ('system', 11.38), ('idle', 6470.06), ('iowait', 5.79), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.11), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 70316032), ('percent', 93.1), ('used', 844963840), ('free', 105918464), ('active', 809742336), ('inactive', 19968000), ('buffers', 5378048), ('cached', 70098944), ('shared', 761856), ('slab', 55304192)])
+INFO:root:Thu Jul  2 17:33:59 2020 | cpu times: OrderedDict([('user', 39.35), ('nice', 0.0), ('system', 11.39), ('idle', 6530.02), ('iowait', 5.8), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.12), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 70397952), ('percent', 93.1), ('used', 844804096), ('free', 105918464), ('active', 809877504), ('inactive', 20103168), ('buffers', 5386240), ('cached', 70250496), ('shared', 761856), ('slab', 55304192)])
+INFO:root:Thu Jul  2 17:34:59 2020 | cpu times: OrderedDict([('user', 39.36), ('nice', 0.0), ('system', 11.39), ('idle', 6589.97), ('iowait', 5.8), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.12), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 70406144), ('percent', 93.1), ('used', 844791808), ('free', 105918464), ('active', 810000384), ('inactive', 20107264), ('buffers', 5394432), ('cached', 70254592), ('shared', 761856), ('slab', 55304192)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 17:36:01 2020 | Data from Google Sheet retrieved at Thu Jul  2 17:36:01 2020
+INFO:root:Thu Jul  2 17:36:01 2020 | cpu times: OrderedDict([('user', 39.74), ('nice', 0.0), ('system', 11.4), ('idle', 6650.76), ('iowait', 5.81), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.12), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 70381568), ('percent', 93.1), ('used', 844808192), ('free', 105885696), ('active', 810184704), ('inactive', 20107264), ('buffers', 5410816), ('cached', 70254592), ('shared', 761856), ('slab', 55304192)])
+INFO:root:Thu Jul  2 17:36:01 2020 | Beginning processing at Thu Jul  2 17:36:01 2020, running 1 queries
+INFO:root:Thu Jul  2 17:36:01 2020 | cpu times: OrderedDict([('user', 39.75), ('nice', 0.0), ('system', 11.4), ('idle', 6650.76), ('iowait', 5.81), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.12), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 70381568), ('percent', 93.1), ('used', 844808192), ('free', 105885696), ('active', 810221568), ('inactive', 20107264), ('buffers', 5410816), ('cached', 70254592), ('shared', 761856), ('slab', 55304192)])
+INFO:root:Thu Jul  2 17:36:13 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 17:36:13 2020 | Processing completed in 12.13 seconds
+INFO:root:Thu Jul  2 17:36:13 2020 | cpu times: OrderedDict([('user', 39.9), ('nice', 0.0), ('system', 11.4), ('idle', 6662.7), ('iowait', 5.81), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.12), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 70127616), ('percent', 93.2), ('used', 845037568), ('free', 105619456), ('active', 810409984), ('inactive', 20127744), ('buffers', 5419008), ('cached', 70283264), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:37:13 2020 | cpu times: OrderedDict([('user', 39.9), ('nice', 0.0), ('system', 11.41), ('idle', 6722.66), ('iowait', 5.81), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.13), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 69898240), ('percent', 93.2), ('used', 845250560), ('free', 105361408), ('active', 810569728), ('inactive', 20160512), ('buffers', 5427200), ('cached', 70320128), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:38:13 2020 | cpu times: OrderedDict([('user', 39.9), ('nice', 0.0), ('system', 11.41), ('idle', 6782.58), ('iowait', 5.82), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.13), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 69648384), ('percent', 93.2), ('used', 845488128), ('free', 105103360), ('active', 810692608), ('inactive', 20164608), ('buffers', 5443584), ('cached', 70324224), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:39:13 2020 | cpu times: OrderedDict([('user', 39.92), ('nice', 0.0), ('system', 11.41), ('idle', 6842.53), ('iowait', 5.83), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.14), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 69652480), ('percent', 93.2), ('used', 845479936), ('free', 105103360), ('active', 810803200), ('inactive', 20164608), ('buffers', 5451776), ('cached', 70324224), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:40:13 2020 | cpu times: OrderedDict([('user', 39.92), ('nice', 0.0), ('system', 11.42), ('idle', 6902.47), ('iowait', 5.83), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.14), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 69419008), ('percent', 93.2), ('used', 845684736), ('free', 104845312), ('active', 810930176), ('inactive', 20197376), ('buffers', 5468160), ('cached', 70361088), ('shared', 761856), ('slab', 55312384)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 17:41:14 2020 | Data from Google Sheet retrieved at Thu Jul  2 17:41:14 2020
+INFO:root:Thu Jul  2 17:41:14 2020 | cpu times: OrderedDict([('user', 40.3), ('nice', 0.0), ('system', 11.43), ('idle', 6963.17), ('iowait', 5.84), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.14), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 68661248), ('percent', 93.3), ('used', 846401536), ('free', 104038400), ('active', 811180032), ('inactive', 20217856), ('buffers', 5476352), ('cached', 70443008), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:41:14 2020 | Beginning processing at Thu Jul  2 17:41:14 2020, running 1 queries
+INFO:root:Thu Jul  2 17:41:14 2020 | cpu times: OrderedDict([('user', 40.31), ('nice', 0.0), ('system', 11.43), ('idle', 6963.17), ('iowait', 5.84), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.14), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 68661248), ('percent', 93.3), ('used', 846401536), ('free', 104038400), ('active', 811216896), ('inactive', 20217856), ('buffers', 5476352), ('cached', 70443008), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:41:25 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 17:41:25 2020 | Processing completed in 11.06 seconds
+INFO:root:Thu Jul  2 17:41:25 2020 | cpu times: OrderedDict([('user', 40.46), ('nice', 0.0), ('system', 11.43), ('idle', 6974.06), ('iowait', 5.84), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.15), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 68665344), ('percent', 93.3), ('used', 846389248), ('free', 104038400), ('active', 811401216), ('inactive', 20221952), ('buffers', 5484544), ('cached', 70447104), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:42:25 2020 | cpu times: OrderedDict([('user', 40.46), ('nice', 0.0), ('system', 11.44), ('idle', 7034.01), ('iowait', 5.85), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.16), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 68419584), ('percent', 93.3), ('used', 846626816), ('free', 103780352), ('active', 811536384), ('inactive', 20234240), ('buffers', 5492736), ('cached', 70459392), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:43:25 2020 | cpu times: OrderedDict([('user', 40.48), ('nice', 0.0), ('system', 11.44), ('idle', 7093.97), ('iowait', 5.85), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.16), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 68423680), ('percent', 93.3), ('used', 846610432), ('free', 103780352), ('active', 811651072), ('inactive', 20234240), ('buffers', 5509120), ('cached', 70459392), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:44:25 2020 | cpu times: OrderedDict([('user', 40.49), ('nice', 0.0), ('system', 11.45), ('idle', 7153.9), ('iowait', 5.86), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.17), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 68431872), ('percent', 93.3), ('used', 846561280), ('free', 103780352), ('active', 811757568), ('inactive', 20238336), ('buffers', 5558272), ('cached', 70459392), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:45:25 2020 | cpu times: OrderedDict([('user', 40.5), ('nice', 0.0), ('system', 11.45), ('idle', 7213.86), ('iowait', 5.86), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.17), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 68972544), ('percent', 93.3), ('used', 846024704), ('free', 104296448), ('active', 810876928), ('inactive', 20234240), ('buffers', 5574656), ('cached', 70463488), ('shared', 761856), ('slab', 55312384)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 17:46:27 2020 | Data from Google Sheet retrieved at Thu Jul  2 17:46:27 2020
+INFO:root:Thu Jul  2 17:46:27 2020 | cpu times: OrderedDict([('user', 40.88), ('nice', 0.0), ('system', 11.46), ('idle', 7274.85), ('iowait', 5.87), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.17), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 68177920), ('percent', 93.4), ('used', 846819328), ('free', 103489536), ('active', 811868160), ('inactive', 20234240), ('buffers', 5582848), ('cached', 70467584), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:46:27 2020 | Beginning processing at Thu Jul  2 17:46:27 2020, running 1 queries
+INFO:root:Thu Jul  2 17:46:27 2020 | cpu times: OrderedDict([('user', 40.88), ('nice', 0.0), ('system', 11.46), ('idle', 7274.85), ('iowait', 5.87), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.17), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 68177920), ('percent', 93.4), ('used', 846819328), ('free', 103489536), ('active', 811905024), ('inactive', 20234240), ('buffers', 5582848), ('cached', 70467584), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:46:40 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 17:46:40 2020 | Processing completed in 13.31 seconds
+INFO:root:Thu Jul  2 17:46:40 2020 | cpu times: OrderedDict([('user', 41.02), ('nice', 0.0), ('system', 11.47), ('idle', 7287.97), ('iowait', 5.88), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.17), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 67923968), ('percent', 93.4), ('used', 847069184), ('free', 103231488), ('active', 812085248), ('inactive', 20234240), ('buffers', 5591040), ('cached', 70467584), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:47:40 2020 | cpu times: OrderedDict([('user', 41.02), ('nice', 0.0), ('system', 11.47), ('idle', 7347.93), ('iowait', 5.88), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.18), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 67670016), ('percent', 93.4), ('used', 847319040), ('free', 102973440), ('active', 812236800), ('inactive', 20234240), ('buffers', 5599232), ('cached', 70467584), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:48:40 2020 | cpu times: OrderedDict([('user', 41.03), ('nice', 0.0), ('system', 11.48), ('idle', 7407.89), ('iowait', 5.89), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.18), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 67702784), ('percent', 93.4), ('used', 847245312), ('free', 102973440), ('active', 812326912), ('inactive', 20291584), ('buffers', 5615616), ('cached', 70524928), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:49:40 2020 | cpu times: OrderedDict([('user', 41.04), ('nice', 0.0), ('system', 11.48), ('idle', 7467.83), ('iowait', 5.89), ('irq', 0.0), ('softirq', 0.24), ('steal', 7.18), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 67710976), ('percent', 93.4), ('used', 847237120), ('free', 102973440), ('active', 812474368), ('inactive', 20291584), ('buffers', 5623808), ('cached', 70524928), ('shared', 761856), ('slab', 55312384)])
+INFO:root:Thu Jul  2 17:50:40 2020 | cpu times: OrderedDict([('user', 41.63), ('nice', 0.0), ('system', 11.73), ('idle', 7525.98), ('iowait', 6.78), ('irq', 0.0), ('softirq', 0.25), ('steal', 7.21), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 50327552), ('percent', 95.1), ('used', 850063360), ('free', 71045120), ('active', 834756608), ('inactive', 28626944), ('buffers', 11112448), ('cached', 94138368), ('shared', 770048), ('slab', 55721984)])
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/ubuntu/.local/share/virtualenvs/ams-alert-monitoring-DDDj364Y/lib/python3.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+INFO:root:Thu Jul  2 17:51:42 2020 | Data from Google Sheet retrieved at Thu Jul  2 17:51:42 2020
+INFO:root:Thu Jul  2 17:51:42 2020 | cpu times: OrderedDict([('user', 42.78), ('nice', 0.0), ('system', 12.1), ('idle', 7585.29), ('iowait', 7.22), ('irq', 0.0), ('softirq', 0.27), ('steal', 7.29), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 44617728), ('percent', 95.7), ('used', 859668480), ('free', 69234688), ('active', 829665280), ('inactive', 36630528), ('buffers', 8781824), ('cached', 88674304), ('shared', 770048), ('slab', 55496704)])
+INFO:root:Thu Jul  2 17:51:42 2020 | Beginning processing at Thu Jul  2 17:51:42 2020, running 1 queries
+INFO:root:Thu Jul  2 17:51:42 2020 | cpu times: OrderedDict([('user', 42.78), ('nice', 0.0), ('system', 12.1), ('idle', 7585.29), ('iowait', 7.23), ('irq', 0.0), ('softirq', 0.27), ('steal', 7.29), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 42881024), ('percent', 95.8), ('used', 859967488), ('free', 66097152), ('active', 830791680), ('inactive', 38379520), ('buffers', 8781824), ('cached', 91512832), ('shared', 770048), ('slab', 55496704)])
+INFO:root:Thu Jul  2 17:51:53 2020 | Successful | No alert triggered
+INFO:root:Thu Jul  2 17:51:53 2020 | Processing completed in 11.29 seconds
+INFO:root:Thu Jul  2 17:51:53 2020 | cpu times: OrderedDict([('user', 43.49), ('nice', 0.0), ('system', 12.26), ('idle', 7595.34), ('iowait', 7.53), ('irq', 0.0), ('softirq', 0.28), ('steal', 7.33), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 34811904), ('percent', 96.6), ('used', 880201728), ('free', 70156288), ('active', 844881920), ('inactive', 20312064), ('buffers', 8617984), ('cached', 67383296), ('shared', 770048), ('slab', 55336960)])
+INFO:root:Thu Jul  2 17:52:53 2020 | cpu times: OrderedDict([('user', 46.14), ('nice', 0.0), ('system', 19.28), ('idle', 7625.14), ('iowait', 30.79), ('irq', 0.0), ('softirq', 0.39), ('steal', 7.6), ('guest', 0.0), ('guest_nice', 0.0)]) | virtual memory: OrderedDict([('total', 1026359296), ('available', 8781824), ('percent', 99.1), ('used', 926531584), ('free', 64438272), ('active', 856567808), ('inactive', 10690560), ('buffers', 421888), ('cached', 34967552), ('shared', 778240), ('slab', 55685120)])
