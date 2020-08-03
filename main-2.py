@@ -82,6 +82,7 @@ def process_row(row_idx, row_dict, service):
     else:
         execution_results = 'Successful | No alert triggered'
         gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
+        print(time.asctime(datetime.utcnow().timetuple()), execution_results)
         print_to_terminal_and_log(execution_results, 'green')
 
     
@@ -111,10 +112,11 @@ if __name__ == '__main__':
             exec_time = "{:.2f}".format(time.time() - time_start)
             print_to_terminal_and_log(f'Processing completed in {exec_time} seconds', 'green')
 
-            # Wait 5 minutes before starting again
-            for _ in range(5):
+            # Wait 30 minutes before starting again
+            for _ in range(30):
                 write_memory_log()
                 time.sleep(60)
+
         except Exception as exc:
             print_to_terminal_and_log(f'Error {exc}, waiting 5 minutes', 'red')
             time.sleep(360)
