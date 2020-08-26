@@ -40,10 +40,11 @@ def process_row(row_idx, row_dict, service):
     
     # Step 2: Execute the query
     try:
-        df = athenaAPI.get_pandas_df(sql_query.format(**row_dict))
+        query = sql_query.format(**row_dict)
+        df = athenaAPI.get_pandas_df(query)
     except Exception as e:
         domain = row_dict.get('domain')
-        slackAPI.send_message(f"Error for domain {domain} | row {row_idx+2} | Query returned error: \n```{e}```")
+        slackAPI.send_message(f"Error for domain {domain} | row {row_idx+2} | Query returned error, please check: \n```{e}```")
         execution_results = f"Error | Query returned error: {e}"
         print_to_terminal_and_log(execution_results)
         gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
@@ -52,7 +53,7 @@ def process_row(row_idx, row_dict, service):
     # Failsafe in case there are no results from db
     if df.empty:
         domain = row_dict.get('domain')
-        slackAPI.send_message(f"Error for domain {domain} | row {row_idx} | Query returned 0 results")
+        slackAPI.send_message(f"Error for domain {domain} | row {row_idx + 2} | Query returned 0 results: \n```{query}```")
         execution_results = "Error | query returned 0 results"
         print_to_terminal_and_log(execution_results, 'red')
         gsheetAPI.update_sheet(service, cell_address, [time.asctime(datetime.utcnow().timetuple()), execution_results])
@@ -112,8 +113,8 @@ if __name__ == '__main__':
             exec_time = "{:.2f}".format(time.time() - time_start)
             print_to_terminal_and_log(f'Processing completed in {exec_time} seconds', 'green')
 
-            # Wait 30 minutes before starting again
-            for _ in range(30):
+            # Wait 10 minutes before starting again
+            for _ in range(10):
                 write_memory_log()
                 time.sleep(60)
 

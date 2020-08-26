@@ -18,7 +18,7 @@ from
 where
     access_time > date_add('minute', - 60, NOW())
     and ds >= CAST(DATE(date_add('day', -1, NOW())) as VARCHAR) -- efficency, reduces the search scope
-    and regexp_like(lower(request_path), '{ilike_url}') = true
+    and regexp_like(request_path, '{ilike_url}') = true
     {account_id_condition}
     {domain_id_condition}
     {site_id_condition}

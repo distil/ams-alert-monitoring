@@ -11,3 +11,4 @@ EmanueleBonura-AMS-test1.pem
 .DS_Store
 auth/token.pickle
 data/logs.log
+*.log
