@@ -46,12 +46,21 @@ def print_to_terminal_and_log(text, color='white', level_name='info'):
 #         logs.write(f"{line}\r\n")
         
 # Generate the looker url string
-def generate_looker_url(row_dict):
+def generate_looker_url(row_dict, dashboard_name):
     url_match_formatted = row_dict.get('ilike_url').replace('/', '%2F')
     account_id = row_dict.get('account_id')
     site_id = row_dict.get('site_id')
     domain_id = row_dict.get('domain_id')
-    return f'https://analytics.distilnetworks.com/dashboards/618?access_time=168%20hours&account_id={account_id}&site_id={site_id}&domain_id={domain_id}&url_match=%25{url_match_formatted}%25'
+    dict_dashboards = {'Flags': 'https://analytics.distilnetworks.com/dashboards/653',
+                        'Identifiers': 'https://analytics.distilnetworks.com/dashboards/654',
+                        'Interrogation': 'https://analytics.distilnetworks.com/dashboards/656'}
+    
+    return f'{dict_dashboards[dashboard_name]}?access_time=168%20hours&account_id={account_id}&site_id={site_id}&domain_id={domain_id}&url_match=%25{url_match_formatted}%25'
+    
+    # return f'https://analytics.distilnetworks.com/dashboards/618?access_time=168%20hours&account_id={account_id}&site_id={site_id}&domain_id={domain_id}&url_match=%25{url_match_formatted}%25'
+
+
+
 
 def compose_slack_alert(row_idx, row_dict, results):
     domain = row_dict.get('domain')
@@ -62,7 +71,9 @@ def compose_slack_alert(row_idx, row_dict, results):
     threshold_bucket = results.get('threshold_bucket')
     owner = row_dict.get('owner')
     name = row_dict.get('name')
-    looker_url = generate_looker_url(row_dict)
+    looker_url_Flags = generate_looker_url(row_dict, 'Flags')
+    looker_url_Identifiers = generate_looker_url(row_dict, 'Identifiers')
+    looker_url_Interrogation = generate_looker_url(row_dict, 'Interrogation')
     
     return f'''ALERT! :warning: 
 Domain: _{domain}_ | Url: _{ilike_url}_ | Time: _{time.asctime()}_
@@ -75,4 +86,6 @@ Request count exceded the threshold:
 - Owner: {owner}
 - Name: {name}```
 <{gsheet_link}|Attack monitor sheet> | row: {row_idx+2}
-<{looker_url}|Looker Dashboard>'''
+<{looker_url_Flags}|Looker Dashboard - Flags>
+<{looker_url_Identifiers}|Looker Dashboard - Identifiers>
+<{looker_url_Interrogation}|Looker Dashboard - Interrogation>'''
